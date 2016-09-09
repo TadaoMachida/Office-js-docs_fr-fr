@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SupportedProduct="|Word|Excel|Outlook|PowerPoint|OneNote|Project|Access" SupportedVersion="|V1.1|V1.2|V1.3|">
+  <Item text="Vue d’ensemble" url="overview">
+    <Item text="Vue d’ensemble de la plateforme" url="overview/office-add-ins" SEODescription="Découvrez les compléments Office qui vous permettent de faire en sorte que votre solution soit une partie native d’Office sur Windows, Office Online, Mac et IPad." />
+	<Item text="Configuration requise pour exécuter des compléments" url="overview/requirements-for-running-office-add-ins" SEODescription="Découvrez la configuration logicielle et matérielle requise pour l’exécution des Compléments Office." />	
+	<Item text="Meilleures pratiques en matière de développement de compléments" url="overview/add-in-development-best-practices" SEODescription="Appliquez les meilleures pratiques pour créer des compléments Office afin d’optimiser l’expérience utilisateur." />
+	</Item>
+  <Item text="Prise en main" url="get-started">
+    <Item text="Utiliser Visual Studio" url="get-started/create-and-debug-office-add-ins-in-visual-studio" SEODescription="Commencer à créer un complément Office avec Visual Studio" />
+	  <Item text="Utiliser un éditeur" url="get-started/create-an-office-add-in-using-any-editor" SEODescription="Commencez à créer des compléments Office avec un éditeur, sur un Mac ou PC Windows. " />
+    <Item text="Utiliser Napa" url="get-started/create-an-office-add-in-with-napa" SEODescription="Découvrez les compléments Office en utilisant les outils de développement Office 365 Napa à partir de votre navigateur pour créer un complément de base de contenu, de volet des tâches ou Outlook pour Excel, Outlook, PowerPoint, Project ou Word." />
+  </Item>
+  <Item text="Conception" url="design/add-in-design">
+      <Item text="Éléments d’interface utilisateur" url="design/ui-elements/ui-elements" SEODescription="Utilisez des commandes de complément, l’interface utilisateur de la structure Office et des interfaces HTML personnalisées afin de rendre les interfaces utilisateur de complément intéressantes.">
+      	<Item text="Modèles d’interaction" url="design/ui-elements/interaction-patterns" SEODescription="Créez un style visuel cohérent pour vos modèles de conception en utilisant la mise en page recommandée." />
+      	<Item text="Mise en page pour les compléments de contenu" url="design/ui-elements/layout-for-content-add-ins" SEODescription="Créez un style visuel cohérent pour vos compléments de contenu en utilisant la mise en page recommandée." />
+      	<Item text="Mise en page pour les compléments de volet des tâches" url="design/ui-elements/layout-for-task-pane-add-ins" SEODescription="Créez un style visuel cohérent pour vos compléments de volet des tâches en utilisant la mise en page recommandée." />
+      	<Item text="Mises en page pour les compléments Outlook" url="design/ui-elements/layouts-for-outlook-add-ins" SEODescription="Utiliser ces mises en page pour les compléments de messagerie" Scope="outlook" />
+      	<Item text="Utilisation de la structure de l’interface utilisateur Office" url="design/ui-elements/using-office-ui-fabric" SEODescription="Décrit les opérations de base pour l’utilisation de la structure." />
+      </Item>	
+    	<Item text="Modèles de conception de l’expérience utilisateur" url="design/ux-design-patterns" SEODescription="Utilisez les modèles de conception de l’expérience utilisateur pour les compléments Office afin de créer des extensions de l’interface utilisateur." />
+	<Item text="Commandes de complément pour Excel, Word et PowerPoint" url="design/add-in-commands" SEODescription="Utilisez des commandes de complément dans votre complément pour étendre l’interface utilisateur d’Office par défaut dans Excel, Word et PowerPoint." />
+  	<Item text="Conseils sur le style des visualisations de données" url="design/data-visualization-guidelines" SEODescription="Fournit des conseils sur les visualisations de données dans les compléments Office." />
+    	<Item text="Conseils sur le ton" url="design/voice-guidelines" SEODescription="Découvrez des conseils sur le ton à employer dans l’interface utilisateur des compléments Office" />
+    	<Item text="Conseils sur l’accessibilité" url="design/accessibility-guidelines" SEODescription="Découvrez comment rendre vos compléments Office accessibles à tous les utilisateurs." />
+    </Item>
+  <Item text="Développer" url="develop">
+	<Item text="Cycle de vie de développement du complément" url="design/add-in-development-lifecycle" SEODescription="Planifiez le processus de bout en bout pour développer des compléments de volet des tâches, de contenu et Outlook pour étendre des applications Office." />
+	<Item text="Installer la dernière version d’Office" url="develop/install-latest-office-version" SEODescription="Découvrez comment obtenir les dernières versions d’Office." />
+	<Item text="Développement de compléments pour l’iPad" url="develop/develop-office-add-ins-for-the-ipad" SEODescription="Vérifiez que vos compléments Office sont disponibles dans Office pour iPad." />
+	<Item text="Manifeste" url="overview/add-in-manifests">	
+		<Item text="Définir des commandes de complément" url="outlook/manifests/define-add-in-commands" SEODescription="Utilisez l’élément VersionOverrides dans votre manifeste de complément pour définir des commandes de complément." />
+		<Item text="Spécifier les hôtes Office" url="overview/specify-office-hosts-and-api-requirements" SEODescription="Découvrez comment spécifier les exigences en matière d’hôtes Office et d’API dans votre manifeste." /> 	
+		<Item text="Demande d’autorisations d’utilisation de l’API dans des compléments de contenu et de volet des tâches" url="develop/requesting-permissions-for-api-use-in-content-and-task-pane-add-ins" SEODescription="Spécifiez le niveau d’accès à l’API que votre complément nécessite dans votre manifeste." />
+		<Item text="Mettre à jour la version du manifeste et de l’API" url="develop/update-your-javascript-api-for-office-and-manifest-schema-version" SEODescription="Mettez à jour les fichiers JavaScript (Office.js et fichiers .js propres aux applications) et le fichier de validation du manifeste du complément utilisés dans votre projet Complément Office vers la version 1.1." />
+		<Item text="Utilisation de la journalisation runtime pour déboguer votre manifeste" url="develop/use-runtime-logging-to-debug-manifest" SEODescription="Utilisez la journalisation runtime pour déboguer le manifeste pour votre complément Office." />
+	</Item>	
+	<Item text="API JavaScript pour Office" url="develop/understanding-the-javascript-api-for-office" SEODescription="Découvrez les domaines fonctionnels de l’API JavaScript pour Office, implémentée dans le fichier Office.js.">
+		<Item text="Prise en charge des compléments de contenu et de volet des tâches" url="develop/support-for-task-pane-and-content-add-ins" SEODescription="Décrit les différents niveaux d’autorisation que vous pouvez déclarer dans le manifeste de votre complément de volet des tâches ou de contenu pour spécifier le niveau d’accès de l’API JavaScript nécessaire à votre complément pour ses fonctionnalités." />
+		<Item text="Référencer Office.js" url="develop/referencing-the-javascript-api-for-office-library-from-its-cdn" SEODescription="Référencez la bibliothèque de l’interface API JavaScript pour Office (fichiers Office.js et fichiers .js associés propres aux applications) à partir de l’emplacement de son réseau de distribution de contenu (CDN)." />
+		<Item text="Charger Office.js" url="develop/loading-the-dom-and-runtime-environment" SEODescription="Un complément doit s’assurer que le DOM et l’environnement d’exécution des compléments Office sont chargés avant d’exécuter sa propre logique personnalisée." />
+		<Item text="Programmation asynchrone dans des compléments Office" url="develop/asynchronous-programming-in-office-add-ins" SEODescription="Développez des compléments Office à l’aide des rappels et des modèles de promesses imbriqués, ainsi que des modèles de programmation asynchrones pris en charge par l’API JavaScript pour Office." />
+		<Item text="Conserver l’état et les paramètres" url="develop/persisting-add-in-state-and-settings" SEODescription="Découvrez les options de conservation des données et paramètres d’état de complément pour les compléments de contenu, de volet des tâches et Outlook." />
+	</Item>
+	<Item text="Utiliser OAuth dans un complément Office" url="develop/use-the-oauth-authorization-framework-in-an-office-add-in" SEODescription="Utilisez l’authentification OAuth 2.0 avec vos compléments Office." />
+	<Item text="Confidentialité et sécurité" url="develop/privacy-and-security" SEODescription="Les compléments Office sont sécurisés par une infrastructure d’exécution, un modèle d’autorisations à plusieurs niveaux et la possibilité de contrôler l’utilisation de la mémoire, l’UC et les ressources réseau." />
+	<Item text="Traiter les limites de stratégie de même origine" url="develop/addressing-same-origin-policy-limitations" SEODescription="Fournit un bref aperçu des façons de traiter les limites de stratégie de même origine qui empêchent un script chargé à partir d’un domaine d’obtenir ou de manipuler les propriétés d’un document à partir d’un autre domaine dans un complément Office." />
+	<Item text="Localisation" url="develop/localization" SEODescription="Cet article décrit quelques moyens de fournir un contenu propre aux paramètres régionaux pour un complément Office, y compris les chaînes d’interface utilisateur, le nom du complément, la description, l’icône, le fichier source et le format de date/heure." />
+    <Item text="Performances" url="develop/resource-limits-and-performance-optimization" SEODescription="Appliquez des limites d’utilisation des ressources à vos compléments Office et optimisez les performances de votre complément." />
+  </Item>
+  <Item text="Tester" url="testing">
+    	<Item text="Sideload Office Add-ins for testing" url="testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins" SEODescription="Installez un complément Office en cours d’exécution sur Windows pour les tests." Scope="Excel, Word, PowerPoint, Project, Access" />
+		<Item text="Chargement de version test des compléments Office dans Office Online" url="testing/sideload-office-add-ins-for-testing" SEODescription="Découvrez comment charger un complément dans une application Office pour les tests." />
+	    <Item text="Chargement de version test des compléments Outlook" url="testing/sideload-outlook-add-ins-for-testing" SEODescription="Installez un complément Outlook pour les tests." />
+    	<Item text="Chargement de version test sur iPad et Mac" url="testing/sideload-an-office-add-in-on-ipad-and-mac" SEODescription="Chargez une version test de votre complément Office sur iPad ou Mac pour tester la manière dont elle s’exécutera dans Office pour iOS ou Office pour Mac." />
+    	<Item text="Débogage à l’aide des outils de développement F12" url="testing/debug-add-ins-using-f12-developer-tools-on-windows-10" SEODescription="Utilisez le débogueur des outils de développement F12 de Windows 10 pour déboguer les compléments Office." />
+    	<Item text="Déboguer dans Office Online" url="testing/debug-add-ins-in-office-online" SEODescription="Utilisez Office Online pour déboguer des compléments sans exécuter Office sur la plateforme Windows (par exemple, si vous effectuez le développement sur un Mac)." />
+    	<Item text="Déboguer sur iPad et Mac" url="testing/debug-office-add-ins-on-ipad-and-mac" SEODescription="Déboguez des compléments Office exécutés sur iPad ou Mac à l’aide de l’inspecteur web distant Weinre." />
+        <Item text="Résolution des erreurs de l’utilisateur" url="testing/testing-and-troubleshooting" SEODescription="Résolution des problèmes rencontrés par vos utilisateurs avec des compléments Office." />
+	</Item>
+  <Item text="Publier" url="publish/publish">
+    <Item text="Héberger un complément pour Office sur Microsoft Azure" url="publish/host-an-office-add-in-on-microsoft-azure" SEODescription="Utilisez Visual Studio 2015 et les outils de développement de Microsoft Office pour publier puis héberger un complément Office sur Microsoft Azure." />
+    <Item text="Créer un package de votre complément avec Napa ou Visual Studio" url="publish/package-your-add-in-using-napa-or-visual-studio" SEODescription="Créez un package de votre complément Office afin de le préparer pour la publication." />
+    <Item text="Publier  des compléments du volet Office et de contenu dans un catalogue de compléments" url="publish/publish-task-pane-and-content-add-ins-to-an-add-in-catalog" SEODescription="Configurer les clients Office pour que votre complément soit disponible à partir de la boîte de dialogue des compléments Office" />
+  </Item>
+  
+  <Item text="Word" url="word/word-add-ins-programming-overview" SEODescription="Utilisez les API JavaScript pour créer des compléments Word." Scope="word">
+    <Item text="Créer votre premier complément Word" url="word/word-add-ins" SEODescription="Utilisez des compléments Word pour étendre la fonctionnalité de Word et intégrer Word à d’autres applications." Scope="word" />
+    <Item text="Créer de meilleurs compléments pour Word avec Office Open XML" url="word/create-better-add-ins-for-word-with-office-open-xml" SEODescription="Utilisez Office Open XML pour insérer du contenu enrichi via des compléments Word. Modifiez Office Open XML pour simplifier les marques de révision et réduire la charge utile." Scope="word" />
+    <Item text="Compléments de dictionnaire du volet des tâches" url="word/dictionary-task-pane-add-ins" />
+	<Item text="Obtention de l’intégralité d’un document pour un complément pour PowerPoint ou Word" url="develop/get-the-whole-document-from-an-add-in-for-powerpoint-or-word" SEODescription="Créez un complément pour PowerPoint ou Word qui publie sur un emplacement distant." />
+  	<Item text="Lire et écrire des données dans la sélection active d’un document ou d’une feuille de calcul" url="develop/read-and-write-data-to-the-active-selection-in-a-document-or-spreadsheet" SEODescription="Utilisez l’objet Document pour lire et écrire des données dans la sélection active d’un document ou d’une feuille de calcul." />
+  	<Item text="Lier des régions dans un document ou une feuille de calcul" url="develop/bind-to-regions-in-a-document-or-spreadsheet" SEODescription="Utilisez un identificateur pour accéder à une région d’un document ou d’une feuille de calcul." />
+  </Item>
+    <Item text="Excel" url="excel" Scope="excel">
+    <Item text="Vue d’ensemble de la programmation de l’API JavaScript d’Excel" url="excel/excel-add-ins-javascript-programming-overview" SEODescription="Utilisez les API JavaScript pour créer des compléments pour Excel 2016." Scope="excel" />
+	<Item text="Création de votre premier complément Excel" url="excel/build-your-first-excel-add-in" SEODescription="Créez un complément de volet des tâches simple pour Excel 2016." Scope="excel" />
+	<Item text="Mettre en forme les tableaux dans les compléments pour Excel" url="excel/format-tables-in-add-ins-for-excel" SEODescription="Spécifiez la mise en forme pour les tableaux dans des compléments pour Excel." Scope="excel" />
+	  <Item text="Lire et écrire des données dans la sélection active d’un document ou d’une feuille de calcul" url="develop/read-and-write-data-to-the-active-selection-in-a-document-or-spreadsheet" SEODescription="Lisez et écrivez des données dans la sélection active d’un document ou d’une feuille de calcul" />	
+	  <Item text="Lier des régions dans un document ou une feuille de calcul" url="develop/bind-to-regions-in-a-document-or-spreadsheet" Scope="excel" SEODescription="Liez des régions dans un document ou une feuille de calcul." />
+	</Item>
+  
+  <Item text="Outlook" url="outlook/outlook-add-ins" SEODescription="Créer des compléments Outlook en mode Lecture ou Composition." Scope="outlook">
+    <Item text="Vue d’ensemble" url="outlook/overview" SEODescription="Découvrez les fonctionnalités et l’architecture des compléments Outlook." Scope="outlook" />
+    <Item text="Commandes de complément pour Outlook" url="outlook/add-in-commands-for-outlook" SEODescription="Utilisez des commandes de complément pour intégrer des compléments Outlook à l’interface utilisateur Outlook." Scope="outlook" />
+    <Item text="Compléments Outlook contextuels" url="outlook/contextual-outlook-add-ins" SEODescription="Activez un complément Outlook sur la base du texte spécifié dans un message ou un rendez-vous." Scope="outlook" />
+    <Item text="Compléments Outlook de volet personnalisé" url="outlook/custom-pane-outlook-add-ins" SEODescription="Découvrez comment définir un complément Outlook qui est activé selon des règles spécifiques." Scope="outlook" />
+	<Item text="Compléments Outlook d’extension de module" url="outlook/extension-module-outlook-add-ins" FriendlyUrl="outlookmodule-extension-outlook-add-ins" Scope="outlook" SEODescription="Étendez l’interface utilisateur Outlook en ajoutant des extensions de module dans la barre de navigation." /> 
+	<Item text="API" url="outlook/apis" SEODescription="Découvrez comment spécifier les API nécessaires à votre complément Outlook." Scope="outlook" />
+	<Item text="Manifestes" url="overview/add-in-manifests" Scope="outlook" SEODescription="Utilisez le manifeste XML pour spécifier la manière dont votre complément est activé.">
+      <Item text="Manifestes" url="outlook/manifests/manifests" SEODescription="Créez un manifeste pour un complément Outlook pour le formulaire de lecture ou de composition." Scope="outlook" /><Item text="Règles d’activation" url="outlook/manifests/activation-rules" FriendlyUrl="outlook/manifestsactivation-rules" SEODescription="Définissez des règles d’activation dans le manifeste d’un complément Outlook pour spécifier quand Outlook affiche le complément." Scope="outlook" />
+      <Item text="Définir des commandes de complément" url="outlook/manifests/define-add-in-commands" SEODescription="Utilisez l’élément VersionOverrides dans votre manifeste de complément Outlook pour définir des commandes de complément." Scope="outlook" />
+  	</Item>
+  <Item text="Obtenir et définir des données d’élément dans des formulaires de composition ou de lecture" url="outlook/item-data" SEODescription="Découvrez comment obtenir ou définir des données sur un rendez-vous ou un message à partir d’un complément Outlook" Scope="outlook" />
+	<Item text="Obtenir et définir des métadonnées de complément" url="outlook/metadata-for-an-outlook-add-in" SEODescription="Découvrez comment charger et stocker des données personnalisées auxquelles seul votre complément Outlook peut accéder - via les paramètres d’itinérance et des propriétés personnalisées." Scope="outlook" />
+	<Item text="Confidentialité et sécurité" url="outlook/privacy-and-security" SEODescription="Utilisateurs finals" Scope="outlook">
+		<Item text="Présentation des autorisations de complément Outlook" url="outlook/understanding-outlook-add-in-permissions" SEODescription="Spécifiez les niveaux d’autorisation dans votre manifeste de complément Outlook." />
+    </Item>
+	<Item text="Scénario de lecture" url="outlook/read-scenario" SEODescription="Créez des compléments Outlook pour un scénario de lecture et recherchez des informations relatives aux fonctionnalités disponibles de l’API." Scope="outlook">
+		<Item text="Utiliser des expressions régulières pour afficher un complément Outlook" url="outlook/use-regular-expressions-to-show-an-outlook-add-in" SEODescription="Découvrez comment utiliser des expressions régulières pour spécifier des critères d’un complément Outlook pertinents dans un scénario de lecture et indiquer qu’Outlook doit afficher le complément dans l’interface utilisateur." Scope="outlook" />
+		<Item text="Mettre en correspondance des chaînes dans un élément en tant qu’entités connues" url="outlook/match-strings-in-an-item-as-well-known-entities" SEODescription="Identifiez des modèles de chaîne spécifiques pour activer un complément Outlook ou faciliter le traitement ultérieur de ces modèles de chaîne." Scope="outlook" />
+		<Item text="Extraire des chaînes d’entités d’un élément" url="outlook/extract-entity-strings-from-an-item" SEODescription="Identifiez des modèles de chaîne spécifiques pour activer un complément Outlook ou faciliter le traitement ultérieur de ces modèles de chaîne." Scope="outlook" />
+		<Item text="Obtenir des pièces jointes d’un élément Outlook" url="outlook/get-attachments-of-an-outlook-item" SEODescription="Utilisez un complément Outlook pour permettre à un service d’obtenir des pièces jointes à partir d’un serveur Exchange." Scope="outlook" />
+	</Item>
+	<Item text="Scénario de composition" url="outlook/compose-scenario" SEODescription="Créez des compléments Outlook pour un scénario de lecture et recherchez des informations relatives aux fonctionnalités disponibles de l’API." Scope="outlook">
+		<Item text="Ajouter et supprimer des pièces jointes d’un élément dans un formulaire de composition" url="outlook/add-and-remove-attachments-to-an-item-in-a-compose-form" SEODescription="Consultez des exemples JavaScript d’utilisation de méthodes asynchrones et d’un ID des services web Exchange (EWS) d’un complément Outlook pour ajouter une pièce jointe à un élément composé par un utilisateur dans Outlook." Scope="outlook" /><Item text="Obtenir et définir des données d’élément dans un formulaire de composition" url="outlook/get-and-set-item-data-in-a-compose-form" FriendlyUrl="outlook/composeget-and-set-item-data-in-a-compose-form" SEODescription="Découvrir comment obtenir ou définir diverses propriétés d’un élément dans un complément Outlook dans un scénario de composition" Scope="outlook" />
+		<Item text="Obtenir, définir ou ajouter des destinataires" url="outlook/get-set-or-add-recipients" />
+		<Item text="Obtenir ou définir l’objet" url="outlook/get-or-set-the-subject" SEODescription="Découvrez comment obtenir ou définir l’objet à partir d’un complément Outlook lorsque l’utilisateur compose un rendez-vous ou un message dans Outlook." Scope="outlook" />
+		<Item text="Insérer des données dans le corps" url="outlook/insert-data-in-the-body" SEODescription="Découvrez comment insérer des données dans le corps du rendez-vous ou du message composé par l’utilisateur à partir d’un complément Outlook." Scope="outlook" />	
+		<Item text="Obtenir ou définir le lieu d’un rendez-vous" url="outlook/get-or-set-the-location-of-an-appointment" SEODescription="Découvrez comment obtenir ou définir l’emplacement à partir d’un complément Outlook lorsque l’utilisateur compose un rendez-vous dans Outlook." Scope="outlook" />
+		<Item text="Obtenir ou définir l’heure d’un rendez-vous" url="outlook/get-or-set-the-time-of-an-appointment" SEODescription="Découvrez comment obtenir ou définir l’heure d’un rendez-vous à partir d’un complément Outlook." Scope="outlook" />
+	</Item>
+	<Item text="Appeler des services web" url="outlook/web-services" SEODescription="Découvrez comment appeler EWS ou d’autres services web à partir d’un complément Outlook pour Outlook." Scope="outlook" />
+	<Item text="Authentification" url="outlook/authentication" SEODescription="Découvrez comment utiliser des jetons d’identité Exchange 2013 pour authentifier votre complément Outlook." Scope="outlook">
+		<Item text="Contenu du jeton d’identité" url="outlook/inside-the-identity-token" SEODescription="Découvrez ce que contient un jeton d’identité Exchange 2013." Scope="outlook" />
+		<Item text="Appeler un service à l’aide d’un jeton d’identité" url="outlook/call-a-service-by-using-an-identity-token" SEODescription="Découvrez comment utiliser des jetons d’identité pour lier les comptes de messagerie de vos clients de complément Outlook aux informations que fournit votre service web." Scope="outlook" />
+		<Item text="Utiliser la bibliothèque de validation des jetons" url="outlook/use-the-token-validation-library" SEODescription="Découvrez comment utiliser la bibliothèque de validation de l’API managée EWS pour valider un jeton d’identité Exchange." Scope="outlook" />
+		<Item text="Valider un jeton d’identité" url="outlook/validate-an-identity-token" SEODescription="Découvrez comment utiliser des jetons d’identité pour lier les comptes de messagerie de vos clients de complément Outlook aux informations que fournit votre service web." Scope="outlook" />
+		<Item text="Utiliser PHP pour valider un jeton d’identité" url="outlook/use-php-to-validate-an-identity-token" SEODescription="Découvrez comment utiliser PHP pour valider le jeton d’identité Exchange 2013 qui lie les comptes de messagerie de vos clients de complément Outlook aux informations que fournit votre service." Scope="outlook" />
+		<Item text="Authentifier un utilisateur avec un jeton d’identité" url="outlook/authenticate-a-user-with-an-identity-token" SEODescription="Consultez un exemple de code décrivant comment un objet d’authentification correspond à l’identité unique représentée par un jeton d’identité avec un ensemble d’informations d’identification pour un service." Scope="outlook" />    
+    	 </Item>
+	</Item>
+	<Item text="Tests et conseils" url="outlook/testing-and-tips" FriendlyUrl="outlook/testingtesting-and-tips" Scope="outlook">
+		<Item text="Comparer la prise en charge du complément Outlook dans Outlook pour Mac" url="outlook/compare-outlook-add-in-support-in-outlook-for-mac" SEOKeyword="Liens incorrects accédant à dev.office.com.  J’ai corrigé la liste à puces dans le tableau." Scope="outlook" />
+		<Item text="Conseils pour la gestion des valeurs de date dans les compléments Outlook" url="outlook/tips-for-handling-date-values-in-outlook-add-ins" Scope="outlook" SEODescription="L’objet Date permet de gérer les valeurs de date dans les compléments Outlook." />
+		<Item text="Limites pour l’activation et l’API JavaScript pour les compléments Outlook" url="outlook/limits-for-activation-and-javascript-api-for-outlook-add-ins" Scope="outlook" SEODescription="Assurez-vous que votre complément Outlook respecte les directives d’activation et d’utilisation des API." />
+		<Item text="Résoudre les problèmes d’activation des compléments Outlook" url="outlook/troubleshoot-outlook-add-in-activation" SEODescription="L’activation d’un complément Outlook est contextuelle et basée sur des règles dans un manifeste de complément. Explorez les raisons possibles de l’échec de l’activation d’un complément installé dans Outlook." Scope="outlook" />
+	</Item>    
+  <Item text="PowerPoint" url="powerpoint/powerpoint-add-ins" Scope="powerpoint">
+	<Item text="Utiliser des thèmes de document dans vos compléments PowerPoint" url="powerpoint/use-document-themes-in-your-powerpoint-add-ins" Scope="powerpoint" SEODescription="Appliquer un thème à vos compléments PowerPoint" />
+	<Item text="Obtention de l’intégralité d’un document pour un complément pour PowerPoint ou Word" url="develop/get-the-whole-document-from-an-add-in-for-powerpoint-or-word" SEODescription="Créez un complément pour PowerPoint ou Word qui publie sur un emplacement distant." />   
+	<Item text="Office Mix" url="powerpoint/office-mix" Scope="powerpoint" SEODescription="Utilisez des compléments Office Mix pour incorporer des laboratoires dans vos présentations PowerPoint Office Mix.">
+      <Item text="Compléments Office Mix" url="powerpoint/office-mix/office-mix-add-ins" SEODescription="LabsJS vous permet de créer des instances Office Mix spécialisées" Scope="powerpoint" />
+      <Item text="Configuration et modification de laboratoires LabsJS pour Office Mix" url="powerpoint/office-mix/configuring-and-editing-labsjs-labs-for-office-mix" SEODescription="Découvrez comment configurer votre laboratoire pour prendre en charge l’affichage et la modification." Scope="powerpoint" />
+      <Item text="Prise en main de LabsJS pour Office Mix" url="powerpoint/office-mix/get-started-with-labsjs-for-office-mix" SEODescription="Découvrez comment configurer un environnement de développement des compléments Office pour prendre en charge le développement des laboratoires Microsoft Office Mix à l’aide de l’API Labs.js." Scope="powerpoint" />
+	  <Item text="Procédure pas à pas : Création de votre premier laboratoire pour Office Mix" url="powerpoint/office-mix/creating-your-first-lab-for-office-mix" SEODescription="Créer votre premier laboratoire pour Office Mix" Scope="powerpoint" />
+      <Item text="Instructions pour la création de laboratoires pour Mix à l’aide de LabsJS" url="powerpoint/office-mix/guidelines-for-creating-labs-for-mix-using-labsjs" SEODescription="Obtenez une présentation concise de l’utilisation de la bibliothèque JavaScript LabsJS pour créer des laboratoires pour Office Mix." Scope="powerpoint" />
+      <Item text="Composants de laboratoire LabsJS" url="powerpoint/office-mix/labsjs-lab-components" SEODescription="Les composants sont les blocs de construction d’un laboratoire ; utilisez les composants pour assembler vos laboratoires." Scope="powerpoint" />
+      <Item text="Exemples de laboratoires LabsJS pour Office Mix" url="powerpoint/office-mix/labsjs-labs-for-office-mix-examples" SEODescription="Les composants sont les blocs de construction d’un laboratoire ; utilisez les composants pour assembler vos laboratoires." Scope="powerpoint" />   
+    </Item>
+  </Item>
+  
+  <Item text="OneNote" url="onenote" Scope="onenote">
+	<Item text="Vue d’ensemble de la programmation de l’API JavaScript de OneNote (aperçu))" url="onenote/onenote-add-ins-programming-overview" SEODescription="Utilisez les API JavaScript pour créer des compléments pour OneNote." Scope="onenote" />
+	<Item text="Créer votre premier complément OneNote (aperçu)" url="onenote/onenote-add-ins-getting-started" SEODescription="Créez un complément de volet des tâches simple pour OneNote." Scope="onenote" />
+	<Item text="Utiliser du contenu de page OneNote (aperçu)" url="onenote/onenote-add-ins-page-content" SEODescription="Utilisez l’API JavaScript OneNote pour utiliser le contenu sur une page." Scope="onenote" />
+  </Item>
+  
+  <Item text="Projet" url="project" Scope="project">
+    <Item text="Compléments Project" url="project/project-add-ins" SEODescription="Activez de nombreux scénarios pour intégrer Project 2013 à des pages web et à d’autres applications." Scope="project" />
+	<Item text="Créer un complément Project qui utilise REST avec un service OData local" url="project/create-a-project-add-in-that-uses-rest-with-an-on-premises-odata-service" SEODescription="Créer un complément de volet des tâches pour Project Professionnel 2013" Scope="project" />
+    <Item text="Créer votre premier complément de volet des tâches pour Project à l’aide d’un éditeur de texte" url="project/create-your-first-task-pane-add-in-for-project-by-using-a-text-editor" SEODescription="Développer un complément Office qui utilise un manifeste XML pointant vers un fichier HTML" Scope="project" /> 
+  </Item>
+  <Item text="Access" url="access" Scope="access">
+    <Item text="Compléments d’application web Access" url="access/access-web-app-add-ins" SEOKeyword="Compléments Access" SEODescription="Créez un complément Office qui étend les applications web Access avec HTML et JavaScript personnalisés." Scope="access" />
+  </Item>
+</Menu>

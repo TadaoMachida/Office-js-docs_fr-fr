@@ -1,0 +1,649 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SupportedProduct="|Word|Excel|Outlook|PowerPoint|OneNote|Project|Access" SupportedVersion="|V1.3|V1.2|V1.1|">
+  <Item text="Manifeste" url="manifest">
+    
+	<Item text="AllowSnapshot" url="manifest/allowsnapshot" Scope="excel, powerpoint" SEODescription="Indique si une capture instantanée de votre complément de contenu est enregistrée avec le document hôte." />
+    <Item text="AlternateId" url="manifest/alternateid" Scope="excel, word, powerpoint, access, project" SEODescription="Indique l’ID secondaire de votre complément Office tel qu’il est émis par l’Office Store." />
+    <Item text="AppDomain" url="manifest/appdomain" SEODescription="Indique un domaine supplémentaire permettant de charger des pages dans la fenêtre du complément." />
+    <Item text="AppDomains" url="manifest/appdomains" SEODescription="Indique les domaines supplémentaires que votre complément utilisera pour charger des pages." />
+    <Item text="CitationText" url="manifest/citationtext" SEODescription="Spécifie le texte réutilisable de citation de ce dictionnaire." />
+    <Item text="DefaultLocale" url="manifest/defaultlocale" SEODescription="Spécifie le nom de culture par défaut des paramètres régionaux utilisés par les chaînes contenues dans votre complément." />
+    <Item text="DefaultSettings" url="manifest/defaultsettings" SEODescription="Spécifie l’emplacement de la source par défaut et d’autres paramètres par défaut pour votre complément de contenu ou de volet des tâches." />
+    <Item text="Description" url="manifest/description" SEODescription="Spécifie la description de votre complément Office sous forme d’une chaîne de 250 caractères maximum." />
+    <Item text="DesktopSettings" url="manifest/desktopsettings" Scope="outlook" SEODescription="Spécifie l’emplacement source et les paramètres de contrôle qui s’appliquent lorsque votre complément de messagerie est utilisé sur un ordinateur de bureau." />
+    <Item text="Dictionary" url="manifest/dictionary" Scope="excel, word, powerpoint, project" SEODescription="Définit les paramètres pour un complément de volet Office qui implémente la prise en charge d’un dictionnaire supplémentaire." />
+    <Item text="DictionaryHomePage" url="manifest/dictionaryhomepage" Scope="excel, word, powerpoint, project" SEODescription="Spécifie l’URL de la page d’accueil du dictionnaire." />
+    <Item text="DictionaryName" url="manifest/dictionaryname" Scope="excel, word, powerpoint, project" SEODescription="Spécifie le nom de ce dictionnaire." />
+    <Item text="DisableEntityHighlighting" url="manifest/disableentityhighlighting" Scope="outlook" SEODescription="Spécifie si la mise en surbrillance de l’entité doit être désactivée pour votre complément de messagerie." />
+    <Item text="DisplayName" url="manifest/displayname" SEODescription="Spécifie le nom de votre complément Office sous la forme d’une chaîne de 125 caractères maximum." />
+    
+	<Item text="Formulaire" url="manifest/form" Scope="outlook" SEODescription="Définit les paramètres d’expérience utilisateur pour les formulaires que votre complément de messagerie utilisera lors de l’exécution sur un appareil particulier (ordinateur de bureau, tablette ou téléphone)." />
+    
+	<Item text="FormSettings" url="manifest/formsettings" Scope="outlook" SEODescription="Spécifie l’emplacement source et les paramètres de contrôle de votre complément de messagerie." />
+    
+	
+	<Item text="HighResolutionIconUrl" url="manifest/highresolutioniconurl" SEODescription="Spécifie l’URL de l’image qui est utilisée pour représenter votre complément Office dans l’UX d’insertion UX et l’Office Store sur les écrans à haute résolution (DPI)." />
+    <Item text="Hôte" url="manifest/host" SEODescription="Spécifie le type d’application hôte Office pris en charge par votre complément Office." />
+    
+	<Item text="IconUrl" url="manifest/iconurl" SEODescription="Spécifie l’URL de l’image utilisée pour représenter votre complément Office dans l’UX d’insertion UX et l’Office Store." />
+    <Item text="Id" url="manifest/id" SEODescription="Spécifie l’ID unique de votre complément Office comme GUID." />
+    <Item text="Méthode" url="manifest/method" Scope="excel, word, powerpoint, access, project" SEODescription="Spécifie une méthode individuelle de l’API JavaScript pour Office requise pour l’activation de votre complément Office." />
+    <Item text="Méthodes" url="manifest/methods" Scope="excel, word, powerpoint, access, project" SEODescription="Spécifie la liste des méthodes d’API JavaScript pour Office nécessaires à l’activation de votre complément Office." />
+    <Item text="OfficeApp" url="manifest/officeapp" SEODescription="Élément racine dans le manifeste d’un complément Office." />
+    
+	<Item text="Remplacer" url="manifest/override" SEODescription="Fournit une manière de spécifier la valeur d’un paramètre pour d’autres paramètres régionaux." />
+    <Item text="Autorisations" url="manifest/permissions" SEODescription="Spécifie le niveau d’accès à l’API de votre complément Office ; vous devez demander des autorisations basées sur le principe des privilèges minimaux." />
+    <Item text="PhoneSettings" url="manifest/phonesettings" SEODescription="Spécifie l’emplacement source et les paramètres de contrôle qui s’appliquent lorsque votre complément de messagerie est utilisé sur un téléphone." />
+    <Item text="ProviderName" url="manifest/providername" SEODescription="Spécifie le nom de la personne ou de la société qui a développé ce complément Office sous forme d’une chaîne de 125 caractères maximum." />
+    <Item text="QueryUri" url="manifest/queryuri" Scope="excel, word, powerpoint, access, project" SEODescription="Spécifie l’URL du point de terminaison du service de requête de dictionnaire." />
+    <Item text="RequestedHeight" url="manifest/requestedheight" Scope="excel, powerpoint, access" SEODescription="Spécifie la hauteur initiale d’un complément de contenu en pixels, comprise entre 32 et 1 000." />
+    <Item text="RequestedWidth" url="manifest/requestedwidth" Scope="excel, powerpoint, access" SEODescription="Spécifie la largeur initiale d’un complément de contenu en pixels, comprise entre 32 et 1 000." />
+    <Item text="Configuration requise" url="manifest/requirements" SEODescription="Spécifie l’ensemble minimal des conditions requises de l’API JavaScript pour Office (ensembles des conditions requises et/ou méthodes) que votre complément Office doit activer." />
+    
+	<Item text="Règle" url="manifest/rule" Scope="outlook" SEODescription="Spécifie les règles d’activation à évaluer pour ce complément de messagerie." />
+    <Item text="Set" url="manifest/set" SEODescription="Spécifie un ensemble de conditions requises de l’API JavaScript pour Office nécessaires à l’activation de votre complément Office." />
+    <Item text="documents" url="manifest/sets" SEODescription="Spécifie le sous-ensemble minimal de l’API JavaScript pour Office nécessaire à l’activation de votre complément Office." />
+    <Item text="SourceLocation" url="manifest/sourcelocation" SEODescription="Spécifie les emplacements des fichiers source pour votre complément Office sous forme d’URL comprenant entre 1 et 2 018 caractères." />
+    
+	<Item text="SupportUrl" url="manifest/supporturl" SEODescription="Spécifie l’URL d’une page qui fournit des informations de prise en charge pour votre complément." />
+    <Item text="TabletSettings" url="manifest/tabletsettings" Scope="outlook" SEODescription="Spécifie les paramètres de contrôle qui s’appliquent lorsque votre complément de messagerie est utilisé sur une tablette." />
+    <Item text="TargetDialect" url="manifest/targetdialect" Scope="excel, word, powerpoint, project" SEODescription="Définit une langue régionale prise en charge par ce dictionnaire, représentée sous forme de chaîne de nom de culture." />
+    <Item text="TargetDialects" url="manifest/targetdialects" Scope="excel, word, powerpoint, project" SEODescription="Définit les langues régionales prises en charge par ce dictionnaire." />
+    <Item text="Version" url="manifest/version" SEODescription="Spécifie la version de votre complément Office." />
+	<Item text="VersionOverrides" url="manifest/versionoverrides" Scope="excel, word, powerpoint" SEODescription="Élément racine qui contient des informations pour les commandes de complément implémentées par le complément."> 
+		<Item text="Opération" url="manifest/action" Scope="excel, word, powerpoint" SEODescription="Indique l’action à réaliser lorsque l’utilisateur sélectionne un contrôle de bouton ou de menu." />
+		<Item text="Contrôle" url="manifest/control" SEODescription="Indique le contrôle à réaliser lorsque l’utilisateur sélectionne un bouton ou un menu." />
+		<Item text="CustomTab" url="manifest/customtab" Scope="excel, word, powerpoint" SEODescription="Indique l’onglet et le groupe pour les commandes de complément." />
+		<Item text="ExtensionPoint" url="manifest/extensionpoint" Scope="excel, word, powerpoint" SEODescription="Définit l’emplacement où se trouvent les fonctionnalités d’un complément" />
+		<Item text="FormFactor" url="manifest/formfactor" Scope="excel, word, powerpoint" SEODescription="Spécifie les paramètres d’un complément pour un facteur de forme donné." />
+		<Item text="FunctionFile" url="manifest/functionfile" Scope="excel, word, powerpoint" SEODescription="Spécifie le fichier de code source pour les opérations qu’un complément expose via les commandes de complément qui exécutent une fonction JavaScript au lieu d’afficher l’interface utilisateur." />
+		<Item text="GetStarted" url="manifest/getstarted" Scope="excel, word, powerpoint" SEODescription="Fournit les informations utilisées par la légende qui s’affiche lorsque le complément est installé sur des hôtes Word, Excel et PowerPoint." />
+		<Item text="Groupe" url="manifest/group" Scope="excel, word, powerpoint" SEODescription="Définit un groupe de points d’extension d’interface utilisateur dans un onglet." />
+		<Item text="Hôtes" url="manifest/hosts" Scope="excel, word, powerpoint" SEODescription="Spécifie les types d’application hôte Office pris en charge par votre complément Office." />
+		<Item text="Icône" url="manifest/icon" Scope="excel, word, powerpoint" SEODescription="Définit les éléments d’image pour les options de menu et de bouton." />
+		<Item text="OfficeMenu" url="manifest/officemenu" Scope="excel, word, powerpoint" SEODescription="Définit un ensemble de contrôles à inclure dans le menu contextuel d’Office." />
+		<Item text="OfficeTab" url="manifest/officetab" Scope="excel, word, powerpoint" SEODescription="Spécifie l’onglet préexistant à utiliser pour une commande de complément." />
+		<Item text="Ressources" url="manifest/resources" Scope="excel, word, powerpoint" SEODescription="Contient des icônes, des chaînes et des URL pour le nœud VersionOverrides." />
+		<Item text="SuperTip" url="manifest/supertip" Scope="excel, word, powerpoint" SEODescription="Définit une info-bulle enrichie (titre et description)." />
+	</Item>
+  </Item>
+  
+  <Item text="Word" url="word/word-add-ins-reference-overview" Scope="word" SEODescription="Fournit une vue d’ensemble de l’API Javascript de Word.">
+    <Item text="Corps" url="word/body" SEODescription="Représente le corps d’un document ou d’une section." />
+    <Item text="BreakType" url="word/breaktype" FriendlyUrl="word/referencebreaktype" Scope="word" SEODescription="Spécifie la forme d’un saut." />
+    <Item text="ContentControl" url="word/contentcontrol" FriendlyUrl="word/referencecontentcontrol" Scope="word" SEODescription="Représente un contrôle de contenu. Les contrôles de contenu sont des zones d’un document délimitées par des bordures et pouvant porter une étiquette qui servent à contenir certains types de contenu." />
+    <Item text="ContentControlCollection" url="word/contentcontrolcollection" FriendlyUrl="word/referencecontentcontrolcollection" Scope="word" SEODescription="Contient une collection d’objets ContentControl. Les contrôles de contenu sont des zones d’un document délimitées par des bordures et pouvant porter une étiquette qui servent à contenir certains types de contenu." />
+    <Item text="Document" url="word/document" FriendlyUrl="word/referencedocument" Scope="word" SEODescription="Comporte des sections, des contrôles de contenu et le corps dans lequel se trouve le contenu du document." />
+    <Item text="Erreur" url="word/error" FriendlyUrl="word/referenceerror" Scope="word" SEODescription="Représente des erreurs qui se produisent lorsque vous utilisez l’API JavaScript Word." />
+	<Item text="Police" url="word/font" FriendlyUrl="word/referencefont" Scope="word" SEODescription="Représente une police." />
+    <Item text="InlinePicture" url="word/inlinepicture" FriendlyUrl="word/referenceinlinepicture" Scope="word" SEODescription="Représente une image incluse." />
+    <Item text="InlinePictureCollection" url="word/inlinepicturecollection" FriendlyUrl="word/referenceinlinepicturecollection" Scope="word" SEODescription="Contient une collection d’objets inlinePicture." />
+    <Item text="LoadOption" url="word/loadoption" SEODescription="Spécifie les informations de pagination et les propriétés à charger lors de l’appel de la méthode context.sync()." />
+    <Item text="Paragraph" url="word/paragraph" FriendlyUrl="word/referenceparagraph" Scope="word" SEODescription="Représente un seul paragraphe dans une sélection, une plage, un contrôle de contenu ou le corps d’un document." />
+    <Item text="ParagraphCollection" url="word/paragraphcollection" FriendlyUrl="word/referenceparagraphcollection" Scope="word" SEODescription="Contient une collection d’objets Paragraph." />
+    <Item text="Range" url="word/range" SEODescription="Représente une zone contiguë dans un document." />
+    <Item text="RequestContext" url="word/requestcontext" SEODescription="Facilite les demandes du complément auprès de l’application Word, puisque les deux applications utilisent des processus différents." />
+    <Item text="SearchOptions" url="word/searchoptions" FriendlyUrl="word/referencesearchoptions" Scope="word" SEODescription="Spécifie les options à inclure dans une opération de recherche." />
+    <Item text="SearchResultCollection" url="word/searchresultcollection" FriendlyUrl="word/referencesearchresultcollection" Scope="word" SEODescription="Contient une collection d’objets de Range obtenus à la suite d’une opération de recherche." />
+    <Item text="Section" url="word/section" FriendlyUrl="word/referencesection" Scope="word" SEODescription="Représente une section d’un document Word." />
+    <Item text="SectionCollection" url="word/sectioncollection" FriendlyUrl="word/referencesectioncollection" Scope="word" SEODescription="Contient la collection d’objets de section du document." />
+  </Item>
+  
+  <Item text="Excel" url="excel" Scope="excel">
+    <Item text="Application" url="excel/application" SEODescription="Représente l’application Excel qui gère le classeur." />
+    <Item text="Liaison" url="excel/binding" SEODescription="Représente une liaison Office.js définie dans le classeur." />
+    <Item text="BindingCollection" url="excel/bindingcollection" SEODescription="Représente la collection de tous les objets de liaison qui font partie du classeur." />
+    <Item text="Graphique" url="excel/chart" SEODescription="Représente un objet de graphique dans un classeur." />
+    <Item text="ChartAreaFormat" url="excel/chartareaformat" SEODescription="Regroupe les propriétés de format de l’ensemble de zone du graphique." />
+    <Item text="ChartAxes" url="excel/chartaxes" SEODescription="Représente les axes du graphique." />
+    <Item text="ChartAxis" url="excel/chartaxis" SEODescription="Représente un axe unique dans un graphique." />
+    <Item text="ChartAxisFormat" url="excel/chartaxisformat" SEODescription="Regroupe les propriétés de format des axes du graphique." />
+    <Item text="ChartAxisTitle" url="excel/chartaxistitle" SEODescription="Représente le titre d’un axe de graphique." />
+    <Item text="ChartAxisTitleFormat" url="excel/chartaxistitleformat" SEODescription="Représente le format du titre de l’axe des ordonnées du graphique." />
+    <Item text="ChartCollection" url="excel/chartcollection" SEODescription="Collection de tous les objets de graphique d’une feuille de calcul." />
+    <Item text="ChartDataLabelFormat" url="excel/chartdatalabelformat" SEODescription="Regroupe les propriétés de format des étiquettes de données du graphique." />
+    <Item text="ChartDataLabels" url="excel/chartdatalabels" SEODescription="Représente une collection de toutes les étiquettes de données associées à un point de graphique." />
+    <Item text="ChartFill" url="excel/chartfill" SEODescription="Représente le format de remplissage d’un élément de graphique." />
+    <Item text="ChartFont" url="excel/chartfont" SEODescription="Représente les attributs de police (nom de la police, taille de la police, couleur, etc.) d’un objet de graphique." />
+    <Item text="ChartGridlines" url="excel/chartgridlines" SEODescription="Cet objet représente un quadrillage principal ou secondaire sur un axe de graphique." />
+    <Item text="ChartGridlinesFormat" url="excel/chartgridlinesformat" SEODescription="Regroupe les propriétés de format du quadrillage du graphique." />
+    <Item text="ChartLegend" url="excel/chartlegend" SEODescription="Représente la légende d’un graphique." />
+    <Item text="ChartLegendFormat" url="excel/chartlegendformat" SEODescription="Regroupe les propriétés de format de la légende d’un graphique." />
+    <Item text="ChartLineFormat" url="excel/chartlineformat" SEODescription="Regroupe les options de mise en forme pour les éléments de ligne." />
+    <Item text="ChartPoint" url="excel/chartpoint" SEODescription="Regroupe les options de mise en forme pour les éléments de ligne." />
+    <Item text="ChartPointFormat" url="excel/chartpointformat" SEODescription="Représente un point d’une série dans un graphique." />
+    <Item text="ChartPointsCollection" url="excel/chartpointscollection" SEODescription="Représente le formatage des points du graphique." />
+    <Item text="ChartSeries" url="excel/chartseries" SEODescription="Collection de tous les points d’une série sur un graphique." />
+    <Item text="ChartSeriesCollection" url="excel/chartseriescollection" SEODescription="Regroupe les propriétés de format des séries du graphique." />
+    <Item text="ChartSeriesFormat" url="excel/chartseriesformat" SEODescription="Regroupe les propriétés de format des séries du graphique." />
+    <Item text="ChartTitle" url="excel/charttitle" SEODescription="Représente un objet de titre pour un graphique." />
+    <Item text="ChartTitleFormat" url="excel/charttitleformat" SEODescription="Permet d’accéder à la mise en forme Office Art pour le titre du graphique." />
+    <Item text="Erreur" url="excel/error" SEODescription="Représente les erreurs qui se produisent lorsque vous utilisez l’API JavaScript Excel." />
+	<Item text="Filtrer" url="excel/filter" SEODescription="Gère le filtrage de la colonne d’un tableau." />
+    <Item text="LoadOption" url="excel/loadoption" SEODescription="Représente un objet qui peut être transmis à la méthode de chargement pour spécifier l’ensemble de propriétés et de relations à charger lors de l’exécution de la méthode sync() qui synchronise les états entre les objets Excel et les objets de proxy JavaScript correspondants dans le complément. " />
+    <Item text="NamedItem" url="excel/nameditem" SEODescription="représente un nom défini pour une plage de cellules ou une valeur. " />
+    <Item text="NamedItemCollection" url="excel/nameditemcollection" SEODescription="Collection de tous les objets NamedItem du classeur." />
+    <Item text="Range" url="excel/range" SEODescription="Représente un ensemble constitué d’une ou de plusieurs cellules contiguës comme une cellule, une ligne, une colonne, un bloc de cellules, etc." />
+    <Item text="RangeBorder" url="excel/rangeborder" SEODescription="Cet objet représente la bordure d'un objet." />
+    <Item text="RangeBorderCollection" url="excel/rangebordercollection" SEODescription="Représente les objets de bordure qui composent la bordure de la plage." />
+    <Item text="RangeFill" url="excel/rangefill" SEODescription="Représente l’arrière-plan d’un objet de plage." />
+    <Item text="RangeFont" url="excel/rangefont" SEODescription="Représente les attributs de police (nom de la police, taille de police, couleur, etc.) pour un objet." />
+    <Item text="RangeFormat" url="excel/rangeformat" SEODescription="Objet de format qui comprend les propriétés de police, de remplissage, de bordures, d’alignement, etc. de la plage." />
+    <Item text="RangeSort" url="excel/rangesort" SEODescription="Gère les opérations de tri des objets Range." />
+    <Item text="Requestcontext" url="excel/requestcontext" SEODescription="Facilite les demandes auprès de l’application Excel. " />
+    <Item text="Tableau" url="excel/table" SEODescription="Représente un tableau Excel." />
+    <Item text="TableCollection" url="excel/tablecollection" SEODescription="Représente une collection de tous les tableaux du classeur." />
+    <Item text="TableColumn" url="excel/tablecolumn" SEODescription="Cet objet représente une colonne dans un tableau." />
+    <Item text="TableColumnCollection" url="excel/tablecolumncollection" SEODescription="Représente une collection de toutes les colonnes du tableau." />
+    <Item text="TableRow" url="excel/tablerow" SEODescription="Représente une ligne d’un tableau." />
+    <Item text="TableRowCollection" url="excel/tablerowcollection" SEODescription="Représente une collection de toutes les lignes du tableau." />
+    <Item text="TableSort" url="excel/tablesort" SEODescription="Gère les opérations de tri des objets Table." />
+    <Item text="TrackedObjectsCollection" url="excel/trackedobjectscollection" SEODescription="Permet à des compléments de gérer des références d’objet de plage entre plusieurs lots sync()." />
+    <Item text="Classeur" url="excel/workbook" SEODescription="Contient les objets de classeur associés tels que les feuilles de calcul, les tableaux, les plages, etc." />
+    <Item text="Feuille de calcul" url="excel/worksheet" SEODescription="Représente une grille de cellules contenant des données, des tableaux et des graphiques." />
+    <Item text="WorksheetCollection" url="excel/worksheetcollection" SEODescription="Représente une collection d’objets de feuille de calcul qui font partie du classeur." />
+    <Item text="WorksheetFunctions" url="excel/functions" SEODescription="Utilisé comme un conteneur pour les fonctions de feuille de calcul Excel pouvant être appelées via JavaScript ou REST." />
+    <Item text="WorksheetProtection" url="excel/worksheetprotection" SEODescription="Cet objet représente la protection d’un objet de la feuille." />
+  </Item>
+  
+  <Item text="Outlook" url="outlook" Scope="Outlook">
+		<Item text="1.1" url="outlook/1.1/index" Version="V1.1">
+		  <Item text="Modèles objet" url="outlook/1.1" Version="V1.1">
+		    <Item text="Office.context" url="outlook/1.1/Office.context" Version="V1.1" />
+		    <Item text="Office.context.mailbox" url="outlook/1.1/Office.context.mailbox" Version="V1.1" />
+		    <Item text="Office.context.mailbox.diagnostics" url="outlook/1.1/Office.context.mailbox.diagnostics" Version="V1.1" />
+		    <Item text="Office.context.mailbox.item" url="outlook/1.1/Office.context.mailbox.item" Version="V1.1" />
+		    <Item text="Office.context.mailbox.userProfile" url="outlook/1.1/Office.context.mailbox.userProfile" Version="V1.1" />
+		   
+		  </Item>
+		  <Item text="Types complexes" url="outlook/1.1" Version="V1.1">
+		    <Item text="Body" url="outlook/1.1/Body" Version="V1.1" />
+		    <Item text="CustomProperties" url="outlook/1.1/CustomProperties" Version="V1.1" />
+		    <Item text="Emplacement" url="outlook/1.1/Location" Version="V1.1" />
+		    <Item text="Destinataires" url="outlook/1.1/Recipients" Version="V1.1" />
+		    <Item text="RoamingSettings" url="outlook/1.1/RoamingSettings" Version="V1.1" />
+		    <Item text="Objet" url="outlook/1.1/Subject" Version="V1.1" />
+		    <Item text="Heure" url="outlook/1.1/Time" Version="V1.1" />
+		  </Item>
+		  <Item text="Types simples" url="outlook/1.1/simple-types" Version="V1.1" />
+       <!-- <Item text="AsyncResult" url="outlook/simple-types#asyncresult" Version="V1.1"  />
+        <Item text="AttachmentDetails" url="outlook/simple-types#attachmentdetails" Version="V1.1"  />
+        <Item text="Contact" url="outlook/simple-types#contact" Version="V1.1"  />
+        <Item text="EmailAddressDetails" url="outlook/simple-types#emailaddressdetails" Version="V1.1"  />
+        <Item text="EmailUser" url="outlook/simple-types#emailuser" Version="V1.1"  />
+        <Item text="Entities" url="outlook/simple-types#entities" Version="V1.1"  />
+        <Item text="LocalClientTime" url="outlook/simple-types#localclienttime" Version="V1.1"  />
+        <Item text="MeetingSuggestion" url="outlook/simple-types#contact" Version="V1.1"  />
+        <Item text="PhoneNumber" url="outlook/simple-types#phonenumber" Version="V1.1"  />
+        <Item text="TaskSuggestion" url="outlook/simple-types#tasksuggestion" Version="V1.1"  />
+    </Item>-->
+		  <Item text="Énumérations" url="outlook/1.1/Office.MailboxEnums" Version="V1.1" />  
+      <!--<Item text="Office.AsyncResultStatus" url="outlook/Office#asyncresultstatus-string" Version="V1.1"  />
+      <Item text="Office.CoercionType" url="outlook/Office#coerciontype-string" Version="V1.1"  />
+      <Item text="Office.MailboxEnums.AttachmentType" url="outlook/Office.MailboxEnums#attachmenttype-string" Version="V1.1"  />
+      <Item text="Office.MailboxEnums.EntityType" url="outlook/Office.MailboxEnums#entitytype-string" Version="V1.1"  />
+      <Item text="Office.MailboxEnums.ItemType" url="outlook/Office.MailboxEnums#itemtype-string" Version="V1.1"  />
+      <Item text="Office.MailboxEnums.RecipientType" url="outlook/Office.MailboxEnums#recipienttype-string" Version="V1.1"  />
+      <Item text="Office.MailboxEnums.ResponseType" url="outlook/Office.MailboxEnums#responsetype-string" Version="V1.1"  />
+      <Item text="Office.MailboxEnums.SourceProperty" url="outlook/Office#sourceproperty-string" Version="V1.1"  />-->
+    </Item>   
+    <Item text="1.2" url="outlook/1.2/index" Version="V1.2">
+	    <Item text="Modèles objet" url="outlook/1.2" Version="V1.2">
+		    <Item text="Office.context" url="outlook/1.2/Office.context" Version="V1.2" />
+		    <Item text="Office.context.mailbox" url="outlook/1.2/Office.context.mailbox" Version="V1.2" />
+        <Item text="Office.context.mailbox.diagnostics" url="outlook/1.2/Office.context.mailbox.diagnostics" Version="V1.2" />
+		    <Item text="Office.context.mailbox.item" url="outlook/1.2/Office.context.mailbox.item" Version="V1.2" />
+		    <Item text="Office.context.mailbox.userProfile" url="outlook/1.2/Office.context.mailbox.userProfile" Version="V1.2" />
+		  </Item>
+		  <Item text="Types complexes" url="outlook/1.2" Version="V1.2">
+		    <Item text="Body" url="outlook/1.2/Body" Version="V1.2" />
+		    <Item text="CustomProperties" url="outlook/1.2/CustomProperties" Version="V1.2" />
+		  <Item text="Emplacement" url="outlook/1.2/Location" Version="V1.2" />
+		    <Item text="Destinataires" url="outlook/1.2/Recipients" Version="V1.2" />
+		    <Item text="RoamingSettings" url="outlook/1.2/RoamingSettings" Version="V1.2" />
+		    <Item text="Objet" url="outlook/1.2/Subject" Version="V1.2" />
+		    <Item text="Heure" url="outlook/1.2/Time" Version="V1.2" />
+		  </Item>
+		  <Item text="Types simples" url="outlook/1.2/simple-types" Version="V1.2" SEODescription="Représente les types simples de l’API de boîte aux lettres." />
+        <Item text="AsyncResult" url="outlook/simple-types#asyncresult" Version="V1.2" />
+        <Item text="AttachmentDetails" url="outlook/simple-types#attachmentdetails" Version="V1.2" />
+        <Item text="Contact" url="outlook/simple-types#contact" Version="V1.2" />
+        <Item text="EmailAddressDetails" url="outlook/simple-types#emailaddressdetails" Version="V1.2" />
+        <Item text="EmailUser" url="outlook/simple-types#emailuser" Version="V1.2" />
+        <Item text="Entités" url="outlook/simple-types#entities" Version="V1.2" />
+        <Item text="LocalClientTime" url="outlook/simple-types#localclienttime" Version="V1.2" />
+        <Item text="MeetingSuggestion" url="outlook/simple-types#contact" Version="V1.2" />
+        <Item text="PhoneNumber" url="outlook/simple-types#phonenumber" Version="V1.2" />
+        <Item text="TaskSuggestion" url="outlook/simple-types#tasksuggestion" Version="V1.2" />
+      <Item text="Énumérations" url="outlook/1.2/Office.MailboxEnums" Version="V1.2" SEODescription="Représente les énumérations de l’API de boîte aux lettres." />  
+        <Item text="Office.AsyncResultStatus" url="outlook/Office#asyncresultstatus-string" Version="V1.2" />
+        <Item text="Office.CoercionType" url="outlook/Office#coerciontype-string" Version="V1.2" />
+        <Item text="Office.MailboxEnums.AttachmentType" url="outlook/Office.MailboxEnums#attachmenttype-string" Version="V1.2" />
+        <Item text="Office.MailboxEnums.EntityType" url="outlook/Office.MailboxEnums#entitytype-string" Version="V1.2" />
+        <Item text="Office.MailboxEnums.ItemType" url="outlook/Office.MailboxEnums#itemtype-string" Version="V1.2" />
+        <Item text="Office.MailboxEnums.RecipientType" url="outlook/Office.MailboxEnums#recipienttype-string" Version="V1.2" />
+        <Item text="Office.MailboxEnums.ResponseType" url="outlook/Office.MailboxEnums#responsetype-string" Version="V1.2" />
+        <Item text="Office.MailboxEnums.SourceProperty" url="outlook/Office#sourceproperty-string" Version="V1.2" /> 
+     </Item>
+    
+    <!-- V1.3 or latest. This doesn't have a url with the version number-->
+		<Item text="Modèles objet" url="outlook" Version="V1.3">
+		<Item text="Office" url="outlook/Office" Version="V1.3" SEODescription="L’espace de noms Office fournit des interfaces partagées qui sont utilisées par des compléments dans toutes les applications Office." />
+		<Item text="Office.context" url="outlook/Office.context" Version="V1.3" SEODescription="L’espace de noms Office.context fournit des interfaces partagées qui sont utilisées par des compléments dans toutes les applications Office." />
+		  <Item text="Office.context.mailbox.diagnostics" url="outlook/Office.context.mailbox.diagnostics" Version="V1.3" SEODescription="Fournit des informations de diagnostic à un complément Outlook." />
+		  <Item text="Office.context.mailbox" url="outlook/Office.context.mailbox" Version="V1.3" SEODescription="Permet d’accéder au modèle d’objet du complément Outlook pour Microsoft Outlook et Microsoft Outlook sur le web." />
+		  <Item text="Office.context.mailbox.item" url="outlook/Office.context.mailbox.item" Version="V1.3" SEODescription="L’espace de noms de l’élément est utilisé pour accéder au message, à la demande de réunion ou au rendez-vous actuellement sélectionné. Vous pouvez déterminer le type de l’élément à l’aide de la propriété itemType." />
+		  <Item text="Office.context.mailbox.userProfile" url="outlook/Office.context.mailbox.userProfile" Version="V1.3" SEODescription="Permet d’accéder au profil de la boîte aux lettres de l’utilisateur." />
+			</Item>
+		<Item text="Types complexes" url="outlook" Version="V1.3">
+		  <Item text="Body" url="outlook/Body" Version="V1.3" SEODescription="L’objet Body fournit des méthodes d’ajout et de mise à jour du contenu du message ou du rendez-vous." />
+		  <Item text="CustomProperties" url="outlook/CustomProperties" Version="V1.3" SEODescription="L’objet CustomProperties représente les propriétés personnalisées qui sont spécifiques à un élément particulier et à un complément de messagerie pour Outlook." />
+			<Item text="Événement" url="outlook/Event" Version="V1.3" SEODescription="L’objet Event est transmis en tant que paramètre aux fonctions de complément appelées par des boutons de commande sans interface utilisateur." />	
+			<Item text="Emplacement" url="outlook/Location" Version="V1.3" SEODescription="Fournit des méthodes pour obtenir et définir le lieu d’une réunion dans un complément Outlook." />
+			<Item text="NotificationMessages" url="outlook/NotificationMessages" Version="V1.3" SEODescription="L’objet NotificationMessages est renvoyé en tant que propriété notificationMessages d’un élément." />	
+			<Item text="Destinataires" url="outlook/Recipients" Version="V1.3" SEODescription="Informations sur les destinataires du message." />
+		  <Item text="RoamingSettings" url="outlook/RoamingSettings" Version="V1.3" SEODescription="Les paramètres créés à l’aide des méthodes de l’objet RoamingSettings sont enregistrés par complément et par utilisateur. " />
+		  <Item text="Objet" url="outlook/Subject" Version="V1.3" SEODescription="Fournit des méthodes pour obtenir et définir l’objet d’un rendez-vous ou d’un message dans un complément Outlook." />
+		  <Item text="Heure" url="outlook/Time" Version="V1.3" SEODescription="L’objet Time est renvoyé comme propriété start ou end d’un rendez-vous en mode composition." />
+		</Item>
+		<Item text="Types simples" url="outlook/simple-types" Version="V1.3">
+      
+      <!--
+        <Item text="AsyncResult" url="outlook/simple-types#asyncresult" Version="V1.3"  />
+        <Item text="AttachmentDetails" url="outlook/simple-types#attachmentdetails" Version="V1.3"  />
+        <Item text="Contact" url="outlook/simple-types#contact" Version="V1.3"  />
+        <Item text="EmailAddressDetails" url="outlook/simple-types#emailaddressdetails" Version="V1.3"  />
+        <Item text="EmailUser" url="outlook/simple-types#emailuser" Version="V1.3"  />
+        <Item text="Entities" url="outlook/simple-types#entities" Version="V1.3"  />
+        <Item text="LocalClientTime" url="outlook/simple-types#localclienttime" Version="V1.3"  />
+        <Item text="MeetingSuggestion" url="outlook/simple-types#contact" Version="V1.3"  />
+        <Item text="NotificationMessageDetails" url="outlook/simple-types#meetingsuggestion" Version="V1.3"  />
+        <Item text="PhoneNumber" url="outlook/simple-types#phonenumber" Version="V1.3"  />
+        <Item text="TaskSuggestion" url="outlook/simple-types#tasksuggestion" Version="V1.3"  />
+        -->
+    </Item>
+		<Item text="Énumérations" url="outlook/Office.MailboxEnums" Version="V1.3">  
+      <!--
+      <Item text="Office.AsyncResultStatus" url="outlook/Office#asyncresultstatus-string" Version="V1.3"  />
+      <Item text="Office.CoercionType" url="outlook/Office#coerciontype-string" Version="V1.3"  />
+      <Item text="Office.MailboxEnums.AttachmentType" url="outlook/Office.MailboxEnums#attachmenttype-string" Version="V1.3"  />
+      <Item text="Office.MailboxEnums.EntityType" url="outlook/Office.MailboxEnums#entitytype-string" Version="V1.3"  />
+      <Item text="Office.MailboxEnums.ItemNotification" url="outlook/Office.MailboxEnums#itemnotificationmessagetype-string" Version="V1.3"  />
+      <Item text="Office.MailboxEnums.ItemType" url="outlook/Office.MailboxEnums#itemtype-string" Version="V1.3"  />
+      <Item text="Office.MailboxEnums.RecipientType" url="outlook/Office.MailboxEnums#recipienttype-string" Version="V1.3"  />
+      <Item text="Office.MailboxEnums.ResponseType" url="outlook/Office.MailboxEnums#responsetype-string" Version="V1.3"  />
+      <Item text="Office.MailboxEnums.SourceProperty" url="outlook/Office#sourceproperty-string" Version="V1.3"  />
+        -->
+    </Item>
+    <Item text="Présentation de l’ensemble de conditions requises des API" url="outlook/tutorial-api-requirement-sets" Version="V1.3" SEODescription="Ensembles de conditions requises de l’API pour Outlook" />
+  </Item>
+  <Item text="PowerPoint" url="office-mix" Scope="powerpoint">
+    <Item text="Office Mix" url="office-mix" Scope="powerpoint">
+    <Item text="Classes Labs" url="office-mix/labs-classes" FriendlyUrl="powerpoint/office-mix/referencelabs-classes" Scope="powerpoint" />
+    <Item text="Énumérations Labs" url="office-mix/labs-enumerations" FriendlyUrl="powerpoint/office-mix/referencelabs-enumerations" Scope="powerpoint" />
+    <Item text="Fonctions Labs" url="office-mix/labs-functions" FriendlyUrl="powerpoint/office-mix/referencelabs-functions" Scope="powerpoint" />
+    <Item text="Interfaces d’atelier" url="office-mix/labs-interfaces" FriendlyUrl="powerpoint/office-mix/referencelabs-interfaces" Scope="powerpoint" />
+    <Item text="Variables Labs" url="office-mix/labs-variables" FriendlyUrl="powerpoint/office-mix/referencelabs-variables" Scope="powerpoint" />
+    <Item text="Labs.Command" url="office-mix/labs.command" FriendlyUrl="powerpoint/office-mix/referencelabs.command" Scope="powerpoint" />
+    <Item text="Variables Labs.CommandType" url="office-mix/labs.commandtype-variables" FriendlyUrl="powerpoint/office-mix/referencelabs.commandtype-variables" Scope="powerpoint" />
+    <Item text="Labs.ComponentInstance" url="office-mix/labs.componentinstance" FriendlyUrl="powerpoint/office-mix/referencelabs.componentinstance" Scope="powerpoint" />
+    <Item text="Labs.ComponentInstanceBase" url="office-mix/labs.componentinstancebase" FriendlyUrl="powerpoint/office-mix/referencelabs.componentinstancebase" Scope="powerpoint" />
+    <Item text="Classes Labs.Components" url="office-mix/labs.components-classes" FriendlyUrl="powerpoint/office-mix/referencelabs.components-classes" Scope="powerpoint" />
+    <Item text="Interfaces Labs.Components" url="office-mix/labs.components-interfaces" FriendlyUrl="powerpoint/office-mix/referencelabs.components-interfaces" Scope="powerpoint" />
+    <Item text="Variables Labs.Components" url="office-mix/labs.components-variables" FriendlyUrl="powerpoint/office-mix/referencelabs.components-variables" Scope="powerpoint" />
+    <Item text="Labs.Components.ActivityComponentAttempt" url="office-mix/labs.components.activitycomponentattempt" FriendlyUrl="powerpoint/office-mix/referencelabs.components.activitycomponentattempt" Scope="powerpoint" />
+    <Item text="Labs.Components.ActivityComponentInstance" url="office-mix/labs.components.activitycomponentinstance" FriendlyUrl="powerpoint/office-mix/referencelabs.components.activitycomponentinstance" Scope="powerpoint" />
+    <Item text="Labs.Components.ChoiceComponentAnswer" url="office-mix/labs.components.choicecomponentanswer" FriendlyUrl="powerpoint/office-mix/referencelabs.components.choicecomponentanswer" Scope="powerpoint" />
+    <Item text="Labs.Components.ChoiceComponentAttempt" url="office-mix/labs.components.choicecomponentattempt" FriendlyUrl="powerpoint/office-mix/referencelabs.components.choicecomponentattempt" Scope="powerpoint" />
+    <Item text="Labs.Components.ChoiceComponentInstance" url="office-mix/labs.components.choicecomponentinstance" FriendlyUrl="powerpoint/office-mix/referencelabs.components.choicecomponentinstance" Scope="powerpoint" />
+    <Item text="Labs.Components.ChoiceComponentResult" url="office-mix/labs.components.choicecomponentresult" FriendlyUrl="powerpoint/office-mix/referencelabs.components.choicecomponentresult" Scope="powerpoint" />
+    <Item text="Labs.Components.ChoiceComponentSubmission" url="office-mix/labs.components.choicecomponentsubmission" FriendlyUrl="powerpoint/office-mix/referencelabs.components.choicecomponentsubmission" Scope="powerpoint" />
+    <Item text="Labs.Components.ComponentAttempt" url="office-mix/labs.components.componentattempt" FriendlyUrl="powerpoint/office-mix/referencelabs.components.componentattempt" Scope="powerpoint" />
+    <Item text="Labs.Components.DynamicComponentInstance" url="office-mix/labs.components.dynamiccomponentinstance" FriendlyUrl="powerpoint/office-mix/referencelabs.components.dynamiccomponentinstance" Scope="powerpoint" />
+    <Item text="Labs.Components.IActivityComponent" url="office-mix/labs.components.iactivitycomponent" FriendlyUrl="powerpoint/office-mix/referencelabs.components.iactivitycomponent" Scope="powerpoint" />
+    <Item text="Labs.Components.IActivityComponentInstance" url="office-mix/labs.components.iactivitycomponentinstance" FriendlyUrl="powerpoint/office-mix/referencelabs.components.iactivitycomponentinstance" Scope="powerpoint" />
+    <Item text="Labs.Components.IChoice" url="office-mix/labs.components.ichoice" FriendlyUrl="powerpoint/office-mix/referencelabs.components.ichoice" Scope="powerpoint" />
+    <Item text="Labs.Components.IChoiceComponent" url="office-mix/labs.components.ichoicecomponent" FriendlyUrl="powerpoint/office-mix/referencelabs.components.ichoicecomponent" Scope="powerpoint" />
+    <Item text="Labs.Components.IChoiceComponentInstance" url="office-mix/labs.components.ichoicecomponentinstance" FriendlyUrl="powerpoint/office-mix/referencelabs.components.ichoicecomponentinstance" Scope="powerpoint" />
+    <Item text="Labs.Components.IDynamicComponent" url="office-mix/labs.components.idynamiccomponent" FriendlyUrl="powerpoint/office-mix/referencelabs.components.idynamiccomponent" Scope="powerpoint" />
+    <Item text="Labs.Components.IDynamicComponentInstance" url="office-mix/labs.components.idynamiccomponentinstance" FriendlyUrl="powerpoint/office-mix/referencelabs.components.idynamiccomponentinstance" Scope="powerpoint" />
+    <Item text="Labs.Components.IHint" url="office-mix/labs.components.ihint" FriendlyUrl="powerpoint/office-mix/referencelabs.components.ihint" Scope="powerpoint" />
+    <Item text="Labs.Components.IInputComponent" url="office-mix/labs.components.iinputcomponent" FriendlyUrl="powerpoint/office-mix/referencelabs.components.iinputcomponent" Scope="powerpoint" />
+    <Item text="Labs.Components.IInputComponentInstance" url="office-mix/labs.components.iinputcomponentinstance" FriendlyUrl="powerpoint/office-mix/referencelabs.components.iinputcomponentinstance" Scope="powerpoint" />
+    <Item text="Labs.Components.InputComponentAnswer" url="office-mix/labs.components.inputcomponentanswer" FriendlyUrl="powerpoint/office-mix/referencelabs.components.inputcomponentanswer" Scope="powerpoint" />
+    <Item text="Labs.Components.InputComponentAttempt" url="office-mix/labs.components.inputcomponentattempt" FriendlyUrl="powerpoint/office-mix/referencelabs.components.inputcomponentattempt" Scope="powerpoint" />
+    <Item text="Labs.Components.InputComponentInstance" url="office-mix/labs.components.inputcomponentinstance" FriendlyUrl="powerpoint/office-mix/referencelabs.components.inputcomponentinstance" Scope="powerpoint" />
+    <Item text="Labs.Components.InputComponentResult" url="office-mix/labs.components.inputcomponentresult" FriendlyUrl="powerpoint/office-mix/referencelabs.components.inputcomponentresult" Scope="powerpoint" />
+    <Item text="Labs.Components.InputComponentSubmission" url="office-mix/labs.components.inputcomponentsubmission" FriendlyUrl="powerpoint/office-mix/referencelabs.components.inputcomponentsubmission" Scope="powerpoint" />
+    <Item text="Labs.Connect (surcharge)" url="office-mix/labs.connect-overload" FriendlyUrl="powerpoint/office-mix/referencelabs.connect-overload" Scope="powerpoint" />
+    <Item text="Labs.Connect" url="office-mix/labs.connect" FriendlyUrl="powerpoint/office-mix/referencelabs.connect" Scope="powerpoint" />
+    <Item text="Labs.ConnectionState" url="office-mix/labs.connectionstate" FriendlyUrl="powerpoint/office-mix/referencelabs.connectionstate" Scope="powerpoint" />
+    <Item text="Classes Labs.Core" url="office-mix/labs.core-classes" FriendlyUrl="powerpoint/office-mix/referencelabs.core-classes" Scope="powerpoint" />
+    <Item text="Énumérations Labs.Core" url="office-mix/labs.core-enumerations" FriendlyUrl="powerpoint/office-mix/referencelabs.core-enumerations" SEODescription="Énumérations dans le module Labs.Core." Scope="powerpoint" />
+    <Item text="Interfaces Labs.Core" url="office-mix/labs.core-interfaces" FriendlyUrl="powerpoint/office-mix/referencelabs.core-interfaces" Scope="powerpoint" />
+    <Item text="Interfaces Labs.Core.Actions" url="office-mix/labs.core.actions-interfaces" FriendlyUrl="powerpoint/office-mix/referencelabs.core.actions-interfaces" SEODescription="Interfaces dans le module LabsJS.Labs.Core.Actions." Scope="powerpoint" />
+    <Item text="Variables Labs.Core.Actions" url="office-mix/labs.core.actions-variables" FriendlyUrl="powerpoint/office-mix/referencelabs.core.actions-variables" Scope="powerpoint" />
+    <Item text="Labs.Core.Actions.IAttemptTimeoutOptions" url="office-mix/labs.core.actions.iattempttimeoutoptions" FriendlyUrl="powerpoint/office-mix/referencelabs.core.actions.iattempttimeoutoptions" Scope="powerpoint" />
+    <Item text="Labs.Core.Actions.ICloseComponentOptions" url="office-mix/labs.core.actions.iclosecomponentoptions" FriendlyUrl="powerpoint/office-mix/referencelabs.core.actions.iclosecomponentoptions" SEODescription="Ferme un composant et indique qu’il ne fera plus l’objet d’actions." Scope="powerpoint" />
+    <Item text="Labs.Core.Actions.ICreateAttemptOptions" url="office-mix/labs.core.actions.icreateattemptoptions" FriendlyUrl="powerpoint/office-mix/referencelabs.core.actions.icreateattemptoptions" SEODescription="Ferme un composant et indique qu’il ne fera plus l’objet d’actions." Scope="powerpoint" />
+    <Item text="Labs.Core.Actions.ICreateAttemptResult" url="office-mix/labs.core.actions.icreateattemptresult" FriendlyUrl="powerpoint/office-mix/referencelabs.core.actions.icreateattemptresult" Scope="powerpoint" />
+    <Item text="Labs.Core.Actions.ICreateComponentOptions" url="office-mix/labs.core.actions.icreatecomponentoptions" FriendlyUrl="powerpoint/office-mix/referencelabs.core.actions.icreatecomponentoptions" Scope="powerpoint" />
+    <Item text="Labs.Core.Actions.ICreateComponentResult" url="office-mix/labs.core.actions.icreatecomponentresult" FriendlyUrl="powerpoint/office-mix/referencelabs.core.actions.icreatecomponentresult" Scope="powerpoint" />
+    <Item text="Labs.Core.Actions.IGetValueOptions" url="office-mix/labs.core.actions.igetvalueoptions" FriendlyUrl="powerpoint/office-mix/referencelabs.core.actions.igetvalueoptions" Scope="powerpoint" />
+    <Item text="Labs.Core.Actions.IGetValueResult" url="office-mix/labs.core.actions.igetvalueresult" FriendlyUrl="powerpoint/office-mix/referencelabs.core.actions.igetvalueresult" Scope="powerpoint" />
+    <Item text="Labs.Core.Actions.IResumeAttemptOptions" url="office-mix/labs.core.actions.iresumeattemptoptions" FriendlyUrl="powerpoint/office-mix/referencelabs.core.actions.iresumeattemptoptions" Scope="powerpoint" />
+    <Item text="Labs.Core.Actions.ISubmitAnswerOptions" url="office-mix/labs.core.actions.isubmitansweroptions" FriendlyUrl="powerpoint/office-mix/referencelabs.core.actions.isubmitansweroptions" Scope="powerpoint" />
+    <Item text="Labs.Core.Actions.ISubmitAnswerResult" url="office-mix/labs.core.actions.isubmitanswerresult" FriendlyUrl="powerpoint/office-mix/referencelabs.core.actions.isubmitanswerresult" Scope="powerpoint" />
+    <Item text="Variables Labs.Core.GetActions" url="office-mix/labs.core.getactions-variables" FriendlyUrl="powerpoint/office-mix/referencelabs.core.getactions-variables" Scope="powerpoint" />
+    <Item text="Labs.Core.GetActions.IGetAttemptOptions" url="office-mix/labs.core.getactions.igetattemptoptions" FriendlyUrl="powerpoint/office-mix/referencelabs.core.getactions.igetattemptoptions" Scope="powerpoint" />
+    <Item text="Labs.Core.GetActions.IGetComponentActionsOptions" url="office-mix/labs.core.getactions.igetcomponentactionsoptions" FriendlyUrl="powerpoint/office-mix/referencelabs.core.getactions.igetcomponentactionsoptions" Scope="powerpoint" />
+    <Item text="Labs.Core.IAction" url="office-mix/labs.core.iaction" FriendlyUrl="powerpoint/office-mix/referencelabs.core.iaction" Scope="powerpoint" />
+    <Item text="Labs.Core.IActionOptions" url="office-mix/labs.core.iactionoptions" FriendlyUrl="powerpoint/office-mix/referencelabs.core.iactionoptions" Scope="powerpoint" />
+    <Item text="Labs.Core.IActionResult" url="office-mix/labs.core.iactionresult" FriendlyUrl="powerpoint/office-mix/referencelabs.core.iactionresult" Scope="powerpoint" />
+    <Item text="Labs.Core.IAnalyticsConfiguration" url="office-mix/labs.core.ianalyticsconfiguration" FriendlyUrl="powerpoint/office-mix/referencelabs.core.ianalyticsconfiguration" Scope="powerpoint" />
+    <Item text="Labs.Core.ICompletionStatus" url="office-mix/labs.core.icompletionstatus" FriendlyUrl="powerpoint/office-mix/referencelabs.core.icompletionstatus" Scope="powerpoint" />
+    <Item text="Labs.Core.IComponent" url="office-mix/labs.core.icomponent" FriendlyUrl="powerpoint/office-mix/referencelabs.core.icomponent" SEODescription="Classe de base pour la représentation des composants d’un laboratoire." Scope="powerpoint" />
+    <Item text="Labs.Core.IComponentInstance" url="office-mix/labs.core.icomponentinstance" FriendlyUrl="powerpoint/office-mix/referencelabs.core.icomponentinstance" Scope="powerpoint" />
+    <Item text="Labs.Core.IConfiguration" url="office-mix/labs.core.iconfiguration" FriendlyUrl="powerpoint/office-mix/referencelabs.core.iconfiguration" SEODescription="Classe de base pour les instances d’une configuration de laboratoire." Scope="powerpoint" />
+    <Item text="Labs.Core.IConfigurationInfo" url="office-mix/labs.core.iconfigurationinfo" FriendlyUrl="powerpoint/office-mix/referencelabs.core.iconfigurationinfo" Scope="powerpoint" />
+    <Item text="Labs.Core.IConfigurationInstance" url="office-mix/labs.core.iconfigurationinstance" FriendlyUrl="powerpoint/office-mix/referencelabs.core.iconfigurationinstance" SEODescription="Structure de données de configuration de laboratoire." Scope="powerpoint" />
+    <Item text="Labs.Core.IConnectionResponse" url="office-mix/labs.core.iconnectionresponse" FriendlyUrl="powerpoint/office-mix/referencelabs.core.iconnectionresponse" Scope="powerpoint" />
+    <Item text="Labs.Core.IEventCallback" url="office-mix/labs.core.ieventcallback" FriendlyUrl="powerpoint/office-mix/referencelabs.core.ieventcallback" SEODescription="Interface permettant de traiter les rappels EventManager." Scope="powerpoint" />
+    <Item text="Labs.Core.IGetActionOptions" url="office-mix/labs.core.igetactionoptions" FriendlyUrl="powerpoint/office-mix/referencelabs.core.igetactionoptions" Scope="powerpoint" />
+    <Item text="Labs.Core.ILabCallback" url="office-mix/labs.core.ilabcallback" FriendlyUrl="powerpoint/office-mix/referencelabs.core.ilabcallback" Scope="powerpoint" />
+    <Item text="Labs.Core.ILabCreationOptions" url="office-mix/labs.core.ilabcreationoptions" FriendlyUrl="powerpoint/office-mix/referencelabs.core.ilabcreationoptions" Scope="powerpoint" />
+    <Item text="Labs.Core.ILabHost" url="office-mix/labs.core.ilabhost" FriendlyUrl="powerpoint/office-mix/referencelabs.core.ilabhost" SEODescription="Fournit une couche d’abstraction pour connecter Labs.js à l’hôte." Scope="powerpoint" />
+    <Item text="Labs.Core.ILabHostVersionInfo" url="office-mix/labs.core.ilabhostversioninfo" FriendlyUrl="powerpoint/office-mix/referencelabs.core.ilabhostversioninfo" Scope="powerpoint" />
+    <Item text="Labs.Core.ILabObject" url="office-mix/labs.core.ilabobject" FriendlyUrl="powerpoint/office-mix/referencelabs.core.ilabobject" Scope="powerpoint" />
+    <Item text="Labs.Core.ITimelineConfiguration" url="office-mix/labs.core.itimelineconfiguration" FriendlyUrl="powerpoint/office-mix/referencelabs.core.itimelineconfiguration" Scope="powerpoint" />
+    <Item text="Labs.Core.IUserData" url="office-mix/labs.core.iuserdata" FriendlyUrl="powerpoint/office-mix/referencelabs.core.iuserdata" Scope="powerpoint" />
+    <Item text="Labs.Core.IUserInfo" url="office-mix/labs.core.iuserinfo" FriendlyUrl="powerpoint/office-mix/referencelabs.core.iuserinfo" Scope="powerpoint" />
+    <Item text="Labs.Core.IValue" url="office-mix/labs.core.ivalue" FriendlyUrl="powerpoint/office-mix/referencelabs.core.ivalue" Scope="powerpoint" />
+    <Item text="Labs.Core.IValueInstance" url="office-mix/labs.core.ivalueinstance" FriendlyUrl="powerpoint/office-mix/referencelabs.core.ivalueinstance" Scope="powerpoint" />
+    <Item text="Labs.Core.IVersion" url="office-mix/labs.core.iversion" FriendlyUrl="powerpoint/office-mix/referencelabs.core.iversion" Scope="powerpoint" />
+    <Item text="Labs.Core.LabMode" url="office-mix/labs.core.labmode" FriendlyUrl="powerpoint/office-mix/referencelabs.core.labmode" SEODescription="« Le mode actuel du laboratoire" Scope="powerpoint" />
+    <Item text="Labs.Core.ModeChangedEventData" url="office-mix/labs.core.modechangedeventdata" FriendlyUrl="powerpoint/office-mix/referencelabs.core.modechangedeventdata" SEODescription="Données associées à un événement de mode modifié." Scope="powerpoint" />
+    <Item text="Labs.Core.Permissions" url="office-mix/labs.core.permissions" FriendlyUrl="powerpoint/office-mix/referencelabs.core.permissions" Scope="powerpoint" />
+    <Item text="Labs.DefaultHostBuilder" url="office-mix/labs.defaulthostbuilder" FriendlyUrl="powerpoint/office-mix/referencelabs.defaulthostbuilder" Scope="powerpoint" />
+    <Item text="Labs.disconnect" url="office-mix/labs.disconnect" FriendlyUrl="powerpoint/office-mix/referencelabs.disconnect" Scope="powerpoint" />
+    <Item text="Labs.editLab" url="office-mix/labs.editlab" FriendlyUrl="powerpoint/office-mix/referencelabs.editlab" Scope="powerpoint" />
+    <Item text="Labs.GetActionsCommandData" url="office-mix/labs.getactionscommanddata" FriendlyUrl="powerpoint/office-mix/referencelabs.getactionscommanddata" Scope="powerpoint" />
+    <Item text="Labs.getConnectionInfo" url="office-mix/labs.getconnectioninfo" FriendlyUrl="powerpoint/office-mix/referencelabs.getconnectioninfo" Scope="powerpoint" />
+    <Item text="Labs.getTimeline" url="office-mix/labs.gettimeline" FriendlyUrl="powerpoint/office-mix/referencelabs.gettimeline" Scope="powerpoint" />
+    <Item text="Labs.IMessageHandler" url="office-mix/labs.imessagehandler" FriendlyUrl="powerpoint/office-mix/referencelabs.imessagehandler" Scope="powerpoint" />
+    <Item text="Labs.isConnected" url="office-mix/labs.isconnected" FriendlyUrl="powerpoint/office-mix/referencelabs.isconnected" Scope="powerpoint" />
+    <Item text="Labs.ITimelineNextMessage" url="office-mix/labs.itimelinenextmessage" FriendlyUrl="powerpoint/office-mix/referencelabs.itimelinenextmessage" Scope="powerpoint" />
+    <Item text="Labs.LabEditor" url="office-mix/labs.labeditor" FriendlyUrl="powerpoint/office-mix/referencelabs.labeditor" Scope="powerpoint" />
+    <Item text="Labs.LabInstance" url="office-mix/labs.labinstance" FriendlyUrl="powerpoint/office-mix/referencelabs.labinstance" Scope="powerpoint" />
+    <Item text="Labs.off" url="office-mix/labs.off" FriendlyUrl="powerpoint/office-mix/referencelabs.off" Scope="powerpoint" />
+    <Item text="Labs.on" url="office-mix/labs.on" FriendlyUrl="powerpoint/office-mix/referencelabs.on" Scope="powerpoint" />
+    <Item text="Labs.ProblemState" url="office-mix/labs.problemstate" FriendlyUrl="powerpoint/office-mix/referencelabs.problemstate" Scope="powerpoint" />
+    <Item text="Labs.registerDeserializer" url="office-mix/labs.registerdeserializer" FriendlyUrl="powerpoint/office-mix/referencelabs.registerdeserializer" Scope="powerpoint" />
+    <Item text="Labs.SendMessageCommandData" url="office-mix/labs.sendmessagecommanddata" FriendlyUrl="powerpoint/office-mix/referencelabs.sendmessagecommanddata" Scope="powerpoint" />
+    <Item text="Labs.TakeActionCommandData" url="office-mix/labs.takeactioncommanddata" FriendlyUrl="powerpoint/office-mix/referencelabs.takeactioncommanddata" Scope="powerpoint" />
+    <Item text="Labs.takeLab" url="office-mix/labs.takelab" FriendlyUrl="powerpoint/office-mix/referencelabs.takelab" Scope="powerpoint" />
+    <Item text="Labs.Timeline" url="office-mix/labs.timeline" FriendlyUrl="powerpoint/office-mix/referencelabs.timeline" Scope="powerpoint" />
+    <Item text="Labs.ValueHolder" url="office-mix/labs.valueholder" FriendlyUrl="powerpoint/office-mix/referencelabs.valueholder" Scope="powerpoint" />
+    <Item text="labsjs-javascript-api-reference" url="office-mix/labsjs-javascript-api-reference" />
+    <Item text="LabsJS.Labs.CommandType" url="office-mix/labsjs.labs.commandtype" FriendlyUrl="powerpoint/office-mix/referencelabsjs.labs.commandtype" Scope="powerpoint" />
+    <Item text="LabsJS.Labs.Components" url="office-mix/labsjs.labs.components" FriendlyUrl="powerpoint/office-mix/referencelabsjs.labs.components" Scope="powerpoint" />
+    <Item text="LabsJS.Labs.Core.Actions" url="office-mix/labsjs.labs.core.actions" FriendlyUrl="powerpoint/office-mix/referencelabsjs.labs.core.actions" SEODescription="Fournit une vue d’ensemble de l’API JavaScript LabJS.Labs.Core.Actions." Scope="powerpoint" />
+    <Item text="LabsJS.Labs.Core.GetActions" url="office-mix/labsjs.labs.core.getactions" FriendlyUrl="powerpoint/office-mix/referencelabsjs.labs.core.getactions" Scope="powerpoint" />
+    <Item text="LabsJS.Labs.Core" url="office-mix/labsjs.labs.core" FriendlyUrl="powerpoint/office-mix/referencelabsjs.labs.core" Scope="powerpoint" />
+    <Item text="LabsJS.Labs" url="office-mix/labsjs.labs" FriendlyUrl="powerpoint/office-mix/referencelabsjs.labs" Scope="powerpoint" />
+  </Item>
+  </Item>
+  
+  <Item text="OneNote" url="onenote/onenote-add-ins-javascript-reference" Scope="onenote">
+    <Item text="Application" url="onenote/application" SEODescription="Référence d’évaluation des compléments OneNote." />
+    <Item text="Erreur" url="onenote/error" SEODescription="Référence d’évaluation des compléments OneNote." />
+	<Item text="Bloc-notes" url="onenote/notebook" SEODescription="Référence d’évaluation des compléments OneNote." />
+    <Item text="Notebookcollection" url="onenote/notebookcollection" SEODescription="Référence d’évaluation des compléments OneNote." />
+    <Item text="Page" url="onenote/page" SEODescription="Référence d’évaluation des compléments OneNote." />
+    <Item text="Pagecollection" url="onenote/pagecollection" SEODescription="Référence d’évaluation des compléments OneNote." />
+    <Item text="Pagecontent" url="onenote/pagecontent" SEODescription="Référence d’évaluation des compléments OneNote." />
+    <Item text="Pagecontentcollection" url="onenote/pagecontentcollection" SEODescription="Référence d’évaluation des compléments OneNote." />
+    <Item text="Paragraph" url="onenote/paragraph" SEODescription="Référence d’évaluation des compléments OneNote." />
+    <Item text="Paragraphcollection" url="onenote/paragraphcollection" SEODescription="Référence d’évaluation des compléments OneNote." />
+    <Item text="Richtext" url="onenote/richtext" SEODescription="Référence d’évaluation des compléments OneNote." />
+    <Item text="Section" url="onenote/section" SEODescription="Référence d’évaluation des compléments OneNote." />
+    <Item text="Sectioncollection" url="onenote/sectioncollection" SEODescription="Référence d’évaluation des compléments OneNote." />
+    <Item text="Sectiongroup" url="onenote/sectiongroup" SEODescription="Référence d’évaluation des compléments OneNote." />
+    <Item text="Sectiongroupcollection" url="onenote/sectiongroupcollection" SEODescription="Référence d’évaluation des compléments OneNote." />
+    <Item text="Outline" url="onenote/outline" SEODescription="Référence d’évaluation des compléments OneNote." />
+    <Item text="Image" url="onenote/image" SEODescription="Référence d’évaluation des compléments OneNote." />
+  </Item>  
+  <Item text="API partagée" url="shared/shared-api">
+    <Item text="Interface API JavaScript pour Office" url="javascript-api-for-office" SEODescription="L’interface API JavaScript pour Office comprend des objets, méthodes, propriétés, événements et énumérations que vous pouvez utiliser dans votre code des compléments Office." />
+	<Item text="Nouveautés de l’API JavaScript pour Office" url="what's-changed-in-the-javascript-api-for-office" SEODescription="L’interface API JavaScript pour Office est mise à jour régulièrement mis à jour avec de nouveaux objets, méthodes, propriétés, événements et énumérations mis à jour afin d’étendre les fonctionnalités de vos compléments Office." />
+	<Item text="Ensembles de conditions requises pour les compléments Office" url="office-add-in-requirement-sets" SEODescription="Les ensembles de conditions requises sont des groupes nommés de membres d’API. Les compléments Office utilisent les ensembles de conditions requises spécifiés dans le manifeste ou une vérification de l’exécution pour déterminer si un hôte Office prend en charge les API requises par le complément." />
+	<Item text="Codes d’erreur de l’API JavaScript pour Office" url="javascript-api-for-office-error-codes" SEODescription="Les messages d’erreur que vous pouvez rencontrer lors de l’utilisation de l’interface API JavaScript pour Office (Office.js)." />
+	<Item text="Énumérations" url="shared/enumerations" FriendlyUrl="reference/enumerationsenumerations">
+      <Item text="Énumération ActiveView" url="shared/activeview-enumeration" FriendlyUrl="reference/enumerationsactiveview-enumeration" Scope="powerpoint" SEODescription="Spécifie l’état de l’affichage dynamique du document, par exemple, si l’utilisateur peut modifier le document." />
+      <Item text="AsyncResultStatus, énumération" url="shared/asyncresultstatus-enumeration" FriendlyUrl="reference/enumerationsasyncresultstatus-enumeration" Scope="Access, Excel, Word" SEODescription="Spécifie le résultat d’un appel asynchrone." />
+      <Item text="BindingType, énumération" url="shared/bindingtype-enumeration" FriendlyUrl="reference/enumerationsbindingtype-enumeration" Scope="Access, Excel, Word" SEODescription="Spécifie le type de l’objet de liaison qui doit être retourné." />
+      <Item text="CoercionType, énumération" url="shared/coerciontype-enumeration" FriendlyUrl="reference/enumerationscoerciontype-enumeration" SEODescription="Indique comment forcer le type des données retournées ou définies par la méthode appelée." />
+      <Item text="CustomXMLNodeType, énumération" url="shared/customxmlnodetype-enumeration" FriendlyUrl="reference/enumerationscustomxmlnodetype-enumeration" Scope="Word" SEODescription="Spécifie le type de nœud." />
+      <Item text="DocumentMode, énumération" url="shared/documentmode-enumeration" FriendlyUrl="reference/enumerationsdocumentmode-enumeration" Scope="Excel, PowerPoint, Project, Word" SEODescription="Indique si le document de l’application associée est en lecture seule ou en lecture/écriture." />
+      <Item text="EventType, énumération" url="shared/eventtype-enumeration" FriendlyUrl="reference/enumerationseventtype-enumeration" Scope="Excel, PowerPoint, Project, Word" SEODescription="Spécifie le genre de l’événement qui a été déclenché. Renvoyé par la propriété Type d’un objet EventNameEventArgs." />
+      <Item text="FileType, énumération" url="shared/filetype-enumeration" FriendlyUrl="reference/enumerationsfiletype-enumeration" Scope="PowerPoint, Word" SEODescription="Spécifie le format de retour du document." />
+      <Item text="FilterType, énumération" url="shared/filtertype-enumeration" FriendlyUrl="reference/enumerationsfiltertype-enumeration" Scope="Excel, Project, Word" SEODescription="Spécifie si le filtrage à partir de l’application hôte est appliqué quand les données sont récupérées." />
+      <Item text="GoToType, énumération" url="shared/gototype-enumeration" FriendlyUrl="reference/enumerationsgototype-enumeration" Scope="Excel, PowerPoint, Word" SEODescription="Spécifie le type d’emplacement ou d’objet auquel accéder" />
+      <Item text="InitializationReason, énumération" url="shared/initializationreason-enumeration" FriendlyUrl="reference/enumerationsinitializationreason-enumeration" Scope="Excel, Project, Word" SEODescription="Indique si le complément vient d’être inséré ou s’il était déjà contenu dans le document." />
+      <Item text="ProjectProjectFields, énumération" url="shared/projectprojectfields-enumeration" FriendlyUrl="reference/enumerationsprojectprojectfields-enumeration" Scope="project" SEODescription="Spécifie les champs de projet disponibles en tant que paramètres pour la méthode getProjectFieldAsync." />
+      <Item text="ProjectResourceFields, énumération" url="shared/projectresourcefields-enumeration" FriendlyUrl="reference/enumerationsprojectresourcefields-enumeration" Scope="project" SEODescription="Spécifie les champs de ressource disponibles en tant que paramètres pour la méthode getResourceFieldAsync." />
+      <Item text="ProjectTaskFields, énumération" url="shared/projecttaskfields-enumeration" FriendlyUrl="reference/enumerationsprojecttaskfields-enumeration" Scope="project" SEODescription="Spécifie les champs de tâche disponibles en tant que paramètres pour la méthode getTaskFieldAsync." />
+      <Item text="ProjectViewTypes, énumération" url="shared/projectviewtypes-enumeration" FriendlyUrl="reference/enumerationsprojectviewtypes-enumeration" Scope="project" SEODescription="Spécifie les types d’affichage que la méthode getSelectedViewAsync peut reconnaître." />
+      <Item text="Énumération SelectionMode" url="shared/selectionmode-enumeration" FriendlyUrl="reference/enumerationsselectionmode-enumeration" Scope="project" SEODescription="Sélectionne l’image et y accède via l’interface utilisateur de Word. Les valeurs selectionMode peuvent être Select (sélectionner), Start (début) ou End (fin)." />
+      <Item text="Table, énumération" url="shared/table-enumeration" Scope="excel" SEODescription="Indique les valeurs énumérées de la propriété cells: dans le paramètre cellFormat des méthodes de mise en forme de tableau." />
+      <Item text="ValueFormat, énumération" url="shared/valueformat-enumeration" Scope="Excel, Project, Word" SEODescription="Spécifie si les valeurs (telles que les nombres et les dates) retournées par la méthode appelée sont retournées avec leur mise en forme appliquée." />
+      </Item>
+    <Item text="AsyncResult" url="shared/asyncresult">
+      <Item text="AsyncResult.asyncContext" url="shared/asyncresult.asynccontext" SEODescription="Obtient de manière asynchrone le texte d’un nœud XML dans une partie XML personnalisée." />
+      <Item text="AsyncResult.error" url="shared/asyncresult.error" SEODescription="Obtient un objet Error qui fournit une description de l’erreur, si une erreur s’est produite." />
+      <Item text="AsyncResult.status" url="shared/asyncresult.status" SEODescription="Obtient l’état de l’opération asynchrone." />
+      <Item text="AsyncResult.value" url="shared/asyncresult.value" SEODescription="Obtient la charge utile ou le contenu de l’opération asynchrone, le cas échéant." />
+    </Item>
+    <Item text="Contexte " url="shared/office.context" FriendlyUrl="reference/common/officeoffice.context">
+      <Item text="office.context.commerceAllowed " url="shared/office.context.commerceallowed" FriendlyUrl="reference/common/contextoffice.context.commerceallowed" SEODescription="Obtient des informations indiquant si le complément est exécuté sur une plateforme qui autorise les liens vers des systèmes de paiement externes." />
+      <Item text="office.context.contentLanguage" url="shared/office.context.contentlanguage" SEODescription="Obtient les paramètres régionaux (langue) spécifiés par l’utilisateur pour la modification du document ou de l’élément." />
+      <Item text="office.context.displaylanguage" url="shared/office.context.displaylanguage" SEODescription="Obtient les paramètres régionaux (langue) spécifiés par l’utilisateur pour l’interface utilisateur de l’application hôte Office." />
+      <Item text="office.context.touchEnabled" url="shared/office.context.touchenabled" FriendlyUrl="reference/common/contextoffice.context.touchenabled" SEODescription="Obtient des informations indiquant si le complément est exécuté dans une application hôte Office tactile." />
+      <Item text="office.context.officetheme" url="shared/office.context.officetheme" SEODescription="Permet d’accéder aux propriétés pour les couleurs du thème Office." />
+      <Item text="office.context.bodyBackgroundColor" url="shared/office.context.bodybackgroundcolor" FriendlyUrl="reference/common/contextoffice.context.bodybackgroundcolor" SEOKeyword="OL" SEODescription="Obtient la couleur d’arrière-plan du corps du thème Office" />
+      <Item text="office.context.bodyForegroundColor" url="shared/office.context.bodyforegroundcolor" FriendlyUrl="reference/common/contextoffice.context.bodyforegroundcolor" SEOKeyword="OL" SEODescription="Obtient la couleur de premier plan du corps du thème Office." />
+      <Item text="office.context.controlbackgroundcolor" url="shared/office.context.controlbackgroundcolor" SEODescription="Obtient la couleur d’arrière-plan du contrôle du thème Office." />
+      <Item text="office.context.controlforegroundcolor" url="shared/office.context.controlforegroundcolor" SEODescription="Obtient la couleur de premier plan du contrôle du thème Office." />
+      <Item text="office.context.document" url="shared/office.context.document" SEODescription="Obtient un objet qui représente le document avec lequel le complément interagit." />
+      <Item text="office.context.mailbox" url="shared/office.context.mailbox" SEODescription="Obtient l’objet mailbox qui donne accès aux membres de l’API spécifiquement pour les compléments Outlook." />
+      <Item text="office.context.roamingsettings" url="shared/office.context.roamingsettings" SEODescription="Obtient un objet qui représente les paramètres personnalisés ou l’état d’un complément Outlook enregistré dans la boîte aux lettres d’un utilisateur." />
+    </Item>
+    <Item text="Liaison" url="shared/binding" Scope="access, excel, word">
+	    <Item text="Binding.addHandlerAsync" url="shared/binding.addhandlerasync" SEODescription="Ajoute un gestionnaire à la liaison pour le type d’événement spécifié." />
+      <Item text="Événement Binding.bindingDataChanged" url="shared/binding.bindingdatachangedevent" SEODescription="Se produit quand des données sont modifiées dans la liaison." />
+      
+      <!--<Item text="bindingDataChangedEventArgs object" url="shared/binding.bindingdatachangedeventargs" FriendlyUrl="reference/common/binding-object/data-changed-event/argsbinding.bindingdatachangedeventargs"    />
+        <Item text="type " url="shared/binding.bindingdatachangedeventargs.type" FriendlyUrl="reference/common/binding-object/data-changed-event/argsbinding.bindingdatachangedeventargs.type"    />
+        <Item text="binding " url="shared/binding.bindingdatachangedeventargs.binding" FriendlyUrl="reference/common/binding-object/data-changed-event/argsbinding.bindingdatachangedeventargs.binding"    />
+      <Item text="bindingselectionchangedevent.binding " url="shared/binding.bindingselectionchangedevent.binding" FriendlyUrl="reference/common/binding-object/selection-changed-event-argsbinding.bindingselectionchangedevent.binding"    />
+      -->
+      
+      <Item text="Événement Binding.bindingSelectionChanged" url="shared/binding.bindingselectionchangedevent" FriendlyUrl="reference/common/binding-object/selection-changed-eventbinding.bindingselectionchangedevent">
+        <Item text="columnCount" url="shared/binding.bindingselectionchangedevent.columncount" FriendlyUrl="reference/common/binding-object/selection-changed-event-argsbinding.bindingselectionchangedevent.columncount" SEODescription="Obtient le nombre de colonnes sélectionnées." />
+        <Item text="rowCount" url="shared/binding.bindingselectionchangedevent.rowcount" FriendlyUrl="reference/common/binding-object/selection-changed-event-argsbinding.bindingselectionchangedevent.rowcount" SEODescription="Obtient le nombre de lignes sélectionnées" />
+        <Item text="startColumn" url="shared/binding.bindingselectionchangedevent.startcolumn" FriendlyUrl="reference/common/binding-object/selection-changed-event-argsbinding.bindingselectionchangedevent.startcolumn" SEODescription="Obtient l’index de la première colonne de la sélection (de base zéro)." />
+        <Item text="startRow" url="shared/binding.bindingselectionchangedevent.startrow" FriendlyUrl="reference/common/binding-object/selection-changed-event-argsbinding.bindingselectionchangedevent.startrow" SEODescription="Obtient l’index de la première ligne de la sélection (de base zéro)." />
+      </Item>
+      <!--<Item text="binding.bindingSelectionChangedeventargs" url="shared/binding.bindingselectionchangedeventargs"  />
+        <Item text="type" url="shared/binding.bindingselectionchangedevent.type"  />
+      -->
+      <Item text="document" url="shared/binding.document" SEODescription="Classe abstraite qui représente une liaison à une section du document." />
+      <Item text="getDataAsync" url="shared/binding.getdataasync" FriendlyUrl="reference/common/binding-objectbinding.getdataasync" SEODescription="Retourne les données contenues dans la liaison." />
+      <Item text="id" url="shared/binding.id" FriendlyUrl="reference/common/binding-objectbinding.id" SEODescription="Obtient l’identificateur de l’objet." />
+      <Item text="type" url="shared/binding.type" FriendlyUrl="reference/common/binding-objectbinding.type" SEODescription="Obtient le type de la liaison." />
+      <Item text="MatrixBinding" url="shared/binding.matrixbinding">
+        <Item text="rowcount" url="shared/binding.matrixbinding.rowcount" SEODescription="Obtient le nombre de lignes de la structure de données de la matrice, sous forme de valeur entière." />
+        <Item text="columnCount" url="shared/binding.matrixbinding.columncount" FriendlyUrl="reference/common/binding-object/matrixbinding-objectbinding.matrixbinding.columncount" SEODescription="Obtient le nombre de colonnes de la structure de données de la matrice, sous forme de valeur entière." />
+      </Item>
+      <Item text="removeHandlerAsync" url="shared/binding.removehandlerasync" FriendlyUrl="reference/common/binding-objectbinding.removehandlerasync" SEODescription="Supprime le gestionnaire spécifié de la liaison pour le type d’événement spécifié." />
+      <Item text="setDataAsync" url="shared/binding.setdataasync" FriendlyUrl="reference/common/binding-objectbinding.setdataasync" SEODescription="Écrit des données dans la section liée du document représenté par l’objet de liaison spécifié." />
+      <Item text="TableBinding" url="shared/binding.tablebinding">
+        <Item text="addColumnsAsync" url="shared/binding.tablebinding.addcolumnsasync" FriendlyUrl="reference/common/binding-object/tablebinding-objectbinding.tablebinding.addcolumnsasync" SEODescription="Ajoute des colonnes et des valeurs à un tableau." />
+        <Item text="addRowsAsync" url="shared/binding.tablebinding.addrowsasync" FriendlyUrl="reference/common/binding-object/tablebinding-objectbinding.tablebinding.addrowsasync" SEODescription="Ajoute des lignes et des valeurs à un tableau." />
+        <Item text="clearFormatsAsync" url="shared/binding.tablebinding.clearformatsasync" SEODescription="Efface la mise en forme du tableau lié." />
+        <Item text="columnCount" url="shared/binding.tablebinding.columncount" SEODescription="Obtient le nombre de colonnes de la structure de données de la matrice, sous forme de valeur entière." />
+        <Item text="deleteAllDataValuesAsync" url="shared/binding.tablebinding.deletealldatavaluesasync" SEODescription="Supprime toutes les lignes et leurs valeurs (à l’exception des lignes d’en-tête) du tableau, en progressant de manière appropriée pour l’application hôte." />
+        <Item text="hasHeaders" url="shared/binding.tablebinding.hasheaders" SEODescription="Obtient une information indiquant si le tableau comporte des en-têtes." />
+        <Item text="rowCount" url="shared/binding.tablebinding.rowcount" SEODescription="Obtient le nombre de lignes du tableau, sous forme de valeur entière." />
+        <Item text="setFormatsAsync" url="shared/binding.tablebinding.setformatsasync" FriendlyUrl="reference/common/binding-object/tablebinding-objectbinding.tablebinding.setformatsasync" SEODescription="Définit ou met à jour la mise en forme des éléments et données spécifiés dans le tableau lié." Scope="excel" />
+        <Item text="setTableOptionsAsync" url="shared/binding.tablebinding.settableoptionsasync" FriendlyUrl="reference/common/binding-object/tablebinding-objectbinding.tablebinding.settableoptionsasync" SEODescription="Met à jour les options de mise en forme de tableau sur le tableau lié." Scope="excel" />
+      </Item>
+      <Item text="TextBinding" url="shared/binding.textbinding" />
+    </Item>
+    <Item text="Bindings" url="shared/bindings.bindings" Scope="access, excel, word">
+      <Item text="addFromNamedItemAsync" url="shared/bindings.addfromnameditemasync" SEODescription="Ajoute une liaison à un élément nommé dans le document." />
+      <Item text="addFromPromptAsync" url="shared/bindings.addfrompromptasync" SEODescription="Affiche l’interface utilisateur qui permet à l’utilisateur de spécifier une sélection à lier." />
+      <Item text="addFromSelectionAsync" url="shared/bindings.addfromselectionasync" SEODescription="Ajoute un objet de liaison du type spécifié lié à la sélection actuelle dans le document." />
+      <Item text="document" url="shared/bindings.document" FriendlyUrl="reference/common/bindings-objectbindings.document" SEODescription="Classe abstraite qui représente une liaison à une section du document." />
+      <Item text="getAllAsync" url="shared/bindings.getallasync" FriendlyUrl="reference/common/bindings-objectbindings.getallasync" SEODescription="Obtient toutes les liaisons qui ont été créées précédemment." />
+      <Item text="getByIdAsync" url="shared/bindings.getbyidasync" FriendlyUrl="reference/common/bindings-objectbindings.getbyidasync" SEODescription="Obtient la liaison spécifiée par son identificateur." />
+      <Item text="releaseByIdAsync" url="shared/bindings.releasebyidasync" FriendlyUrl="reference/common/bindings-objectbindings.releasebyidasync" SEODescription=" Supprime la liaison spécifiée." />
+    </Item>
+    <Item text="CustomXmlNode" url="shared/customxmlnode.customxmlnode" FriendlyUrl="reference/common/customxmlnode-objectcustomxmlnode.customxmlnode" SEOKeyword="Interface API JavaScript pour Office" Scope="word">
+      <Item text="baseName " url="shared/customxmlnode.basename" FriendlyUrl="reference/common/customxmlnode-objectcustomxmlnode.basename" SEOKeyword="Interface API JavaScript pour Office" Scope="word" SEODescription="Obtient le nom de base du nœud sans le préfixe d’espace de noms, s’il en existe un." />
+      <Item text="getNodesAsync " url="shared/customxmlnode.getnodesasync" FriendlyUrl="reference/common/customxmlnode-objectcustomxmlnode.getnodesasync" SEOKeyword="Interface API JavaScript pour Office" Scope="word" SEODescription=" Obtient les nœuds de manière asynchrone sous la forme d’un tableau d’objets CustomXMLNode correspondant à l’expression XPath relative." />
+      <Item text="getNodeValueAsync " url="shared/customxmlnode.getnodevalueasync" FriendlyUrl="reference/common/customxmlnode-objectcustomxmlnode.getnodevalueasync" SEOKeyword="Interface API JavaScript pour Office" Scope="word" SEODescription="Obtient de manière asynchrone la valeur du nœud." />
+      <Item text="getTextAsync " url="shared/customxmlnode.gettextasync" FriendlyUrl="reference/common/customxmlnode-objectcustomxmlnode.gettextasync" SEOKeyword="Interface API JavaScript pour Office" Scope="word" SEODescription="Obtient de manière asynchrone le texte du nœud." />
+      <Item text="getXmlAsync " url="shared/customxmlnode.getxmlasync" FriendlyUrl="reference/common/customxmlnode-objectcustomxmlnode.getxmlasync" SEOKeyword="Interface API JavaScript pour Office" Scope="word" SEODescription="Obtient de manière asynchrone le contenu XML du nœud." />
+      <Item text="namespaceUri " url="shared/customxmlnode.namespaceuri" FriendlyUrl="reference/common/customxmlnode-objectcustomxmlnode.namespaceuri" SEOKeyword="Interface API JavaScript pour Office" Scope="word" SEODescription="Obtient de manière asynchrone l’espace de noms du nœud." />
+      <Item text="nodeType " url="shared/customxmlnode.nodetype" FriendlyUrl="reference/common/customxmlnode-objectcustomxmlnode.nodetype" SEOKeyword="Interface API JavaScript pour Office" Scope="word" SEODescription="Obtient de manière asynchrone le type du nœud." />
+      <Item text="setNodeValueAsync " url="shared/customxmlnode.setnodevalueasync" FriendlyUrl="reference/common/customxmlnode-objectcustomxmlnode.setnodevalueasync" SEOKeyword="Interface API JavaScript pour Office" Scope="word" SEODescription="Obtient de manière asynchrone la valeur du nœud." />
+      <Item text="setTextAsync " url="shared/customxmlnode.settextasync" FriendlyUrl="reference/common/customxmlnode-objectcustomxmlnode.settextasync" SEOKeyword="Interface API JavaScript pour Office" Scope="word" SEODescription="Obtient de manière asynchrone le texte défini du nœud." />
+      <Item text="setXmlAsync " url="shared/customxmlnode.setxmlasync" FriendlyUrl="reference/common/customxmlnode-objectcustomxmlnode.setxmlasync" Scope="word" SEODescription="Obtient de manière asynchrone le contenu XML défini du nœud." />
+    </Item> 
+    <Item text="CustomXmlPart" url="shared/customxmlpart.customxmlpart" FriendlyUrl="reference/common/customxmlpart-objectcustomxmlpart.customxmlpart" SEODescription="Représente un CustomXMLPart unique dans une collection CustomXMLParts." Scope="word">    
+      <Item text="addHandlerAsync" url="shared/customxmlpart.addhandlerasync" FriendlyUrl="reference/common/customxmlpart-objectcustomxmlpart.addhandlerasync" SEODescription="Ajoute un gestionnaire d’événements pour un événement d’objet CustomXmlPart." Scope="word" />
+      <Item text="builtIn" url="shared/customxmlpart.builtin" FriendlyUrl="reference/common/customxmlpart-objectcustomxmlpart.builtin" SEODescription="Obtient une valeur qui indique si CustomXMLPart est prédéfini." Scope="word" />
+      <Item text="deleteAsync" url="shared/customxmlpart.deleteasync" FriendlyUrl="reference/common/customxmlpart-objectcustomxmlpart.deleteasync" SEODescription="Supprime de manière asynchrone cette partie XML personnalisée de la collection." Scope="word" />
+      <Item text="getNodesAsync" url="shared/customxmlpart.getnodesasync" FriendlyUrl="reference/common/customxmlpart-objectcustomxmlpart.getnodesasync" SEODescription="Obtient de manière asynchrone les CustomXmlNodes de cette partie XML personnalisée qui correspondent au XPath spécifié." Scope="word" />
+      <Item text="getXmlAsync" url="shared/customxmlpart.getxmlasync" FriendlyUrl="reference/common/customxmlpart-objectcustomxmlpart.getxmlasync" SEODescription="Obtient de manière asynchrone le code XML contenu dans cette partie XML personnalisée." Scope="word" />
+      <Item text="id" url="shared/customxmlpart.id" FriendlyUrl="reference/common/customxmlpart-objectcustomxmlpart.id" SEODescription="Obtient le GUID de CustomXMLPart." Scope="word" />
+      <Item text="isUndoRedo" url="shared/customxmlpart.isundoredo" FriendlyUrl="reference/common/customxmlpart-objectcustomxmlpart.isundoredo" SEODescription="Obtient des informations indiquant si le nœud a été supprimé dans le cadre d’une action Annuler/Rétablir effectuée par l’utilisateur." Scope="word" />
+      <Item text="namespaceManager" url="shared/customxmlpart.namespacemanager" FriendlyUrl="reference/common/customxmlpart-objectcustomxmlpart.namespacemanager" SEODescription="Obtient l’ensemble des mappages de préfixes d’espace de noms (CustomXMLPrefixMappings) utilisés pour le CustomXMLPart actuel." Scope="word" />
+      <Item text="newNode" url="shared/customxmlpart.newnode" FriendlyUrl="reference/common/customxmlpart-objectcustomxmlpart.newnode" SEODescription="Obtient le nœud qui vient d’être ajouté à l’objet CustomXMLPart." Scope="word" />
+      <Item text="Événement nodeDeleted" url="shared/customxmlpart.nodedeleted.event" FriendlyUrl="reference/common/customxmlpart-objectcustomxmlpart.nodedeleted.event" SEODescription="Se produit quand un nœud est supprimé." Scope="word" />
+      <!--<Item text="NodeDeletedEventArgs object" url="shared/customxmlpart.nodedeletedeventargs" FriendlyUrl="reference/common/customxmlpart-objectcustomxmlpart.nodedeletedeventargs" SEODescription="Provides information about the deleted node that raised the nodeDeleted event." Scope="word"  />-->
+      <Item text="Événement nodeInserted" url="shared/customxmlpart.nodeinserted.event" FriendlyUrl="reference/common/customxmlpart-objectcustomxmlpart.nodeinserted.event" SEODescription="Se produit quand un nœud est inséré." Scope="word" />
+      <!--<Item text="NodeInsertedEventArgs object" url="shared/customxmlpart.nodeinsertedeventargs" FriendlyUrl="reference/common/customxmlpart-objectcustomxmlpart.nodeinsertedeventargs" SEODescription="Provides information about the inserted node that raised the nodeInserted event." Scope="word"  />-->
+      <Item text="Événement nodeReplaced" url="shared/customxmlpart.nodereplaced.event" FriendlyUrl="reference/common/customxmlpart-objectcustomxmlpart.nodereplaced.event" SEODescription="Se produit quand un nœud est remplacé." Scope="word" />
+      <!--<Item text="NodeReplacedEventArgs object" url="shared/customxmlpart.nodereplacedeventargs" FriendlyUrl="reference/common/customxmlpart-objectcustomxmlpart.nodereplacedeventargs" SEODescription="Provides information about the replaced node that raised the nodeReplaced event." Scope="word"  />-->
+      <Item text="oldNextSibling" url="shared/customxmlpart.oldnextsibling" FriendlyUrl="reference/common/customxmlpart-objectcustomxmlpart.oldnextsibling" SEODescription="Obtient l’ancien frère suivant du nœud qui vient d’être supprimé de l’objet CustomXMLPart." Scope="word" />
+      <Item text="oldNode" url="shared/customxmlpart.oldnode" FriendlyUrl="reference/common/customxmlpart-objectcustomxmlpart.oldnode" SEODescription="Obtient le nœud qui vient d’être supprimé de l’objet CustomXmlPart." Scope="word" />
+      <Item text="removeHandlerAsync" url="shared/customxmlpart.removehandlerasync" FriendlyUrl="reference/common/customxmlpart-objectcustomxmlpart.removehandlerasync" SEODescription="Supprime un gestionnaire d’événements pour un événement d’objet CustomXmlPart." Scope="word" />
+    </Item>
+    <Item text="CustomXmlParts" url="shared/customxmlparts.customxmlparts" FriendlyUrl="reference/common/customxmlparts-objectcustomxmlparts.customxmlparts" SEODescription="Représente une collection d’objets CustomXMLPart." Scope="word">
+    <Item text="addAsync" url="shared/customxmlparts.addasync" FriendlyUrl="reference/common/customxmlparts-objectcustomxmlparts.addasync" SEODescription="Ajoute de manière asynchrone une nouvelle partie XML personnalisée à un fichier." Scope="word" />
+    <Item text="getByIdAsync" url="shared/customxmlparts.getbyidasync" FriendlyUrl="reference/common/customxmlparts-objectcustomxmlparts.getbyidasync" SEODescription="Obtient de manière asynchrone une partie XML personnalisée par son ID." Scope="word" />
+    <Item text="getByNamespaceAsync" url="shared/customxmlparts.getbynamespaceasync" FriendlyUrl="reference/common/customxmlparts-objectcustomxmlparts.getbynamespaceasync" SEODescription="Obtient de manière asynchrone un tableau de parties XML personnalisées qui correspondent à l’espace de noms spécifié." Scope="word" />
+    </Item>
+    <Item text="CustomXmlPrefixMappings" url="shared/customxmlprefixmappings.customxmlprefixmappings" FriendlyUrl="reference/common/customxmlprefixmappings-objectcustomxmlprefixmappings.customxmlprefixmappings" SEODescription="Représente une collection de mappages de préfixes d’espace de noms personnalisés." Scope="word">
+      <Item text="addNamespaceAsync" url="shared/customxmlprefixmappings.addnamespaceasync" FriendlyUrl="reference/common/customxmlprefixmappings-objectcustomxmlprefixmappings.addnamespaceasync" SEODescription="Ajoute de manière asynchrone un préfixe au mappage d’espace de noms à utiliser lors de l’interrogation d’un élément." Scope="word" />
+      <Item text="getNamespaceAsync" url="shared/customxmlprefixmappings.getnamespaceasync" FriendlyUrl="reference/common/customxmlprefixmappings-objectcustomxmlprefixmappings.getnamespaceasync" SEODescription="Obtient de manière asynchrone l’espace de noms mappé au préfixe spécifié." Scope="word" />
+      <Item text="getPrefixAsync" url="shared/customxmlprefixmappings.getprefixasync" FriendlyUrl="reference/common/customxmlprefixmappings-objectcustomxmlprefixmappings.getprefixasync" SEODescription="Obtient de manière asynchrone le préfixe de l’espace de noms spécifié." Scope="word" />
+    </Item>
+    <Item text="Document" url="shared/document" SEODescription="Le sous-ensemble Document API de l’interface API JavaScript pour Office inclut des objets, méthodes, propriétés et événements que vous pouvez utiliser dans les compléments Office qui sont associés à des documents." Scope="access, excel, powerpoint, project, word">
+      <Item text="Événement ActiveViewChanged" url="shared/document.activeviewchanged" FriendlyUrl="reference/common/document/activeviewchangeddocument.activeviewchanged" SEODescription="Survient lorsque l’utilisateur modifie l’affichage actuel du document." Scope="powerpoint" />
+      <!--<Item text="DocumentActiveViewChangedEventArgs object" url="shared/document.activeviewchangedeventargs" FriendlyUrl="reference/common/document/activeviewchangedeventargs-object/document.activeviewchangedeventargs" SEODescription="Provides information about the view that raised the ActiveViewChanged event." Scope="powerpoint"  />
+      <Item text="activeView " url="shared/document.activeviewchangedeventargs.activeview" FriendlyUrl="reference/common/document/activeviewchangedeventargs-object/document.activeviewchangedeventargs.activeview" SEODescription="&quot;Gets an  **ActiveView** enumeration value that identifies the state of the active view of the document" Scope="powerpoint"  />
+      <Item text="type " url="shared/document.activeviewchangedeventargs.type" FriendlyUrl="reference/common/document/activeviewchangedeventargs-object/document.activeviewchangedeventargs.type" SEODescription="Gets an EventType enumeration value that identifies the kind of event that was raised." Scope="powerpoint"  />
+      -->
+      <Item text="addHandlerAsync" url="shared/document.addhandlerasync" FriendlyUrl="reference/common/documentdocument.addhandlerasync" SEODescription="Ajoute un gestionnaire d’événements pour un événement d’objet Document." />
+      <Item text="bindings" url="shared/document.bindings" FriendlyUrl="reference/common/documentdocument.bindings" SEODescription="Représente les liaisons du complément au sein du document." />
+      <Item text="customXmlParts" url="shared/document.customxmlparts" FriendlyUrl="reference/common/documentdocument.customxmlparts" SEODescription="Obtient un objet qui représente les parties XML personnalisées contenues dans le document." Scope="word" />
+      <Item text="getActiveViewAsync" url="shared/document.getactiveviewasync" FriendlyUrl="reference/common/documentdocument.getactiveviewasync" SEODescription="Renvoie l’état de l’affichage actuel de la présentation (modification ou lecture)." />
+      <Item text="getFileAsync" url="shared/document.getfileasync" FriendlyUrl="reference/common/documentdocument.getfileasync" SEODescription="Renvoie le fichier du document associé à un complément Office." />
+      <Item text="getFilePropertiesAsync" url="shared/document.getfilepropertiesasync" FriendlyUrl="reference/common/documentdocument.getfilepropertiesasync" SEODescription="Obtient les propriétés de fichier du document actif." />
+      <Item text="getselecteddataasync" url="shared/document.getselecteddataasync" SEODescription="Obtient de manière asynchrone la valeur de texte des données contenues dans la sélection actuelle d’une ou de plusieurs cellules de l’affichage." />
+      <Item text="goToByIdAsync" url="shared/document.gotobyidasync" SEODescription="Accède à l’emplacement ou l’objet spécifié dans le document." />
+      <Item text="mode" url="shared/document.mode" SEODescription="Le mode actuel du laboratoire, mode Édition ou mode Affichage." />
+      <Item text="removeHandlerAsync" url="shared/document.removehandlerasync" SEODescription="Supprime le gestionnaire spécifié de la liaison pour le type d’événement spécifié." />
+      <Item text="Événement selectionChanged" url="shared/document.selectionchanged.event" SEODescription="Fournit des informations sur le document qui a déclenché l’événement SelectionChanged." />
+      <!--<Item text="document " url="shared/document.selectionchangedeventargs.document"  />
+      <Item text="documentSelectionChangedEventArgs object"   />
+      <Item text="type " url="shared/document.selectionchangedeventargs.type"  />-->
+      <Item text="setSelectedDataAsync" url="shared/document.setselecteddataasync" SEODescription="Écrit des données dans la sélection actuelle au sein du document." />
+      <Item text="paramètres" url="shared/document.settings" SEODescription="Représente des paramètres personnalisés pour un complément de contenu ou de volet des tâches qui sont stockés dans le document hôte comme paires nom/valeur." />
+      <Item text="url" url="shared/document.url" SEODescription="Obtient l’URL du document actuellement ouvert dans l’application hôte." />
+    </Item>
+    <Item text="Erreur" url="shared/error">
+      <Item text="error.code" url="shared/error.code" SEODescription="Obtient le code numérique de l’erreur." />
+      <Item text="error.message" url="shared/error.message" SEODescription="Obtient une description détaillée de l’erreur." />
+      <Item text="error.name" url="shared/error.name" SEODescription="Obtient le nom de l’erreur." />
+    </Item>
+    <Item text="Fichier" url="shared/file">
+      <Item text="closeAsync" url="shared/file.closeasync" FriendlyUrl="reference/common/filefile.closeasync" SEODescription="Ferme le fichier de document." />
+      <Item text="getSliceAsync" url="shared/file.getsliceasync" FriendlyUrl="reference/common/filefile.getsliceasync" SEODescription=" Retourne la section spécifiée." />
+      <Item text="size" url="shared/file.size" FriendlyUrl="reference/common/filefile.size" SEODescription="Renvoie la taille spécifiée." />
+      <Item text="sliceCount" url="shared/file.slicecount" FriendlyUrl="reference/common/filefile.slicecount" SEODescription="Renvoie le nombre spécifié." />
+    </Item>
+    <Item text="Office" url="shared/office">
+      <Item text="cast.item" url="shared/office.cast.item" Scope="outlook" SEODescription="Fournit la fonction IntelliSense pour les messages et rendez-vous en mode composition ou lecture." />
+      <Item text="Événement initialize" url="shared/office.initialize" SEODescription="Se produit quand l’environnement d’exécution est chargé et que le complément est prêt à interagir avec l’application et le document hébergé" />
+      <Item text="select" url="shared/office.select" FriendlyUrl="reference/common/officeoffice.select" SEODescription="Sélectionne le document hébergé." />
+      <Item text="useShortNamespace" url="shared/office.useshortnamespace" FriendlyUrl="reference/common/officeoffice.useshortnamespace" SEODescription="Active et désactive l’alias Office pour l’espace de noms Microsoft.Office.WebExtension complet." />
+    </Item>
+    <Item text="ProjectDocument" url="shared/projectdocument.projectdocument" FriendlyUrl="reference/common/projectdocumentprojectdocument.projectdocument" Scope="project">
+      <Item text="addHandlerAsync" url="shared/projectdocument.addhandlerasync" FriendlyUrl="reference/common/projectdocumentprojectdocument.addhandlerasync" Scope="project" SEODescription="Ajoute de manière asynchrone un gestionnaire d’événements pour un événement dans un objet ProjectDocument." />
+      <Item text="getMaxResourceIndexAsync" url="shared/projectdocument.getmaxresourceindexasync" FriendlyUrl="reference/common/projectdocumentprojectdocument.getmaxresourceindexasync" Scope="project" SEODescription="Obtient de façon asynchrone l’index maximal de la collection de ressources dans le projet en cours." />
+      <Item text="getMaxTaskIndexAsync" url="shared/projectdocument.getmaxtaskindexasync" FriendlyUrl="reference/common/projectdocumentprojectdocument.getmaxtaskindexasync" Scope="project" SEODescription="Obtenez de façon asynchrone l’index maximal de la collection de tâches dans le projet en cours." />
+      <Item text="getProjectFieldAsync" url="shared/projectdocument.getprojectfieldasync" FriendlyUrl="reference/common/projectdocumentprojectdocument.getprojectfieldasync" Scope="project" SEODescription="Obtient de manière asynchrone la valeur du champ spécifié dans le projet actif." />
+      <Item text="getResourceByIndexAsync" url="shared/projectdocument.getresourcebyindexasync" FriendlyUrl="reference/common/projectdocumentprojectdocument.getresourcebyindexasync" Scope="project" SEODescription="Obtient de façon asynchrone le GUID de la ressource contenant l’index indiqué dans la collection de ressources." />
+      <Item text="getResourceFieldAsync" url="shared/projectdocument.getresourcefieldasync" FriendlyUrl="reference/common/projectdocumentprojectdocument.getresourcefieldasync" Scope="project" SEODescription="Obtient de manière asynchrone la valeur du champ spécifié pour la ressource spécifiée." />
+      <Item text="getSelectedDataAsync" url="shared/projectdocument.getselecteddataasync" FriendlyUrl="reference/common/projectdocumentprojectdocument.getselecteddataasync" Scope="project" SEODescription="Obtient de manière asynchrone les données contenues dans la sélection actuelle d’une ou de plusieurs cellules du diagramme de Gantt." />
+      <Item text="getSelectedResourceAsync" url="shared/projectdocument.getselectedresourceasync" FriendlyUrl="reference/common/projectdocumentprojectdocument.getselectedresourceasync" Scope="project" SEODescription="Obtient de manière asynchrone le GUID de la ressource sélectionnée." />
+      <Item text="getSelectedTaskAsync" url="shared/projectdocument.getselectedtaskasync" FriendlyUrl="reference/common/projectdocumentprojectdocument.getselectedtaskasync" Scope="project" SEODescription="Obtient de manière asynchrone le GUID de la tâche sélectionnée." />
+      <Item text="getSelectedViewAsync" url="shared/projectdocument.getselectedviewasync" FriendlyUrl="reference/common/projectdocumentprojectdocument.getselectedviewasync" Scope="project" SEODescription="Obtient de manière asynchrone le type d’affichage et le nom de l’affichage actif." />
+      <Item text="getTaskAsync" url="shared/projectdocument.gettaskasync" FriendlyUrl="reference/common/projectdocumentprojectdocument.gettaskasync" Scope="project" SEODescription="Obtient de manière asynchrone le nom de la tâche, les ressources affectées à la tâche et l’ID de la tâche dans la liste de tâches SharePoint synchronisées." />
+      <Item text="getTaskByIndexAsync" url="shared/projectdocument.gettaskbyindexasync" FriendlyUrl="reference/common/projectdocumentprojectdocument.gettaskbyindexasync" Scope="project" SEODescription="Obtient de manière asynchrone le GUID de la tâche comportant l’index spécifié dans la collection de tâches." />
+      <Item text="getTaskFieldAsync" url="shared/projectdocument.gettaskfieldasync" FriendlyUrl="reference/common/projectdocumentprojectdocument.gettaskfieldasync" Scope="project" SEODescription="Obtient de manière asynchrone la valeur du champ spécifié pour la tâche spécifiée." />
+      <Item text="getWSSUrlAsync" url="shared/projectdocument.getwssurlasync" FriendlyUrl="reference/common/projectdocumentprojectdocument.getwssurlasync" Scope="project" SEODescription="Obtient de manière asynchrone l’URL de la liste de tâches SharePoint synchronisées." />
+      <Item text="removeHandlerAsync" url="shared/projectdocument.removehandlerasync" FriendlyUrl="reference/common/projectdocumentprojectdocument.removehandlerasync" Scope="project" SEODescription=" Supprime de manière asynchrone un gestionnaire d’événements pour un événement dans un objet ProjectDocument. " />
+      <Item text="Événement ResourceSelectionChanged" url="shared/projectdocument.resourceselectionchanged.event" FriendlyUrl="reference/common/projectdocumentprojectdocument.resourceselectionchanged.event" Scope="project" SEODescription="Définit de manière asynchrone la valeur du champ spécifié pour la ressource spécifiée." />
+      <Item text="setResourceFieldAsync" url="shared/projectdocument.setresourcefieldasync" FriendlyUrl="reference/common/projectdocumentprojectdocument.setresourcefieldasync" Scope="project" SEODescription="Définit de manière asynchrone la valeur du champ de ressource spécifié pour la tâche spécifiée." />
+      <Item text="setTaskFieldAsync" url="shared/projectdocument.settaskfieldasync" FriendlyUrl="reference/common/projectdocumentprojectdocument.settaskfieldasync" Scope="project" SEODescription="Définit de manière asynchrone la valeur du champ spécifié pour la tâche spécifiée." />
+      <Item text="Événement TaskSelectionChanged" url="shared/projectdocument.taskselectionchanged.event" FriendlyUrl="reference/common/projectdocumentprojectdocument.taskselectionchanged.event" Scope="project" SEODescription="Se produit quand la sélection de tâche change dans le projet actif" />
+      <Item text="Événement ViewSelectionChanged" url="shared/projectdocument.viewselectionchanged.event" FriendlyUrl="reference/common/projectdocumentprojectdocument.viewselectionchanged.event" Scope="project" SEODescription="Se produit quand l’affichage actif change dans le projet actif." />
+    </Item>
+    <Item text="Paramètres " url="shared/settings" Scope="Access, Excel, PowerPoint, Word">
+      <Item text="addHandlerAsync" url="shared/settings.addhandlerasync" FriendlyUrl="reference/common/settingssettings.addhandlerasync" Scope="excel" SEODescription="Ajoute un gestionnaire d’événements pour l’événement settingsChanged." />
+      <Item text="get" url="shared/settings.get" FriendlyUrl="reference/common/settingssettings.get" SEODescription="Récupère le paramètre spécifié." />
+      <Item text="refreshAsync" url="shared/settings.refreshasync" FriendlyUrl="reference/common/settingssettings.refreshasync" SEODescription="Lit tous les paramètres persistants dans le document et actualise la copie du complément de ces paramètres en mémoire." />
+      <Item text="removeHandlerAsync" url="shared/settings.remove" FriendlyUrl="reference/common/settingssettings.remove" SEODescription="Supprime un gestionnaire d’événements pour l’événement settingsChanged." />
+      <Item text="remove" url="shared/settings.removehandlerasync" FriendlyUrl="reference/common/settingssettings.removehandlerasync" SEODescription="Supprime le paramètre spécifié." />
+      <Item text="saveAsync" url="shared/settings.saveasync" FriendlyUrl="reference/common/settingssettings.saveasync" />
+      <Item text="set" url="shared/settings.set" FriendlyUrl="reference/common/settingssettings.set" SEODescription="Définit ou crée les paramètres." />
+      <Item text="Événement settingsChanged" url="shared/settings.settingschangedevent" FriendlyUrl="reference/common/settings/settingschanged-eventsettings.settingschangedevent" SEODescription="Se produit quand un paramètre est modifié." />
+      <Item text="settings.settingschangedeventargs" url="shared/settings.settingschangedeventargs" SEODescription="Se produit lorsqu’un paramètre est modifié" />
+      <Item text="paramètres" url="shared/settings.settingschangedeventargs.setting" FriendlyUrl="reference/common/settings/settingschanged-event/args/settings.settingschangedeventargs.setting" SEODescription="Spécifie la valeur par défaut de ce paramètre " />
+      <Item text="type" url="shared/settings.settingschangedeventargs.type" FriendlyUrl="reference/office.js/settings/settingschanged-event/args/settings.settingschangedeventargs.type" SEODescription="Spécifie le type par défaut de ce paramètre " />
+  </Item>
+    <Item text="Slice" url="shared/slice" Scope="powerpoint, word">
+    <Item text="data" url="shared/slice.data" SEODescription="Obtient les données brutes de la section de fichier." />
+    <Item text="index" url="shared/slice.index" SEODescription="Obtient l’index de la section de fichier." /> 
+    <Item text="size" url="shared/slice.size" SEODescription="Obtient la taille de la section en octets." />
+    </Item>
+    <Item text="TableData" url="shared/tabledata" Scope="excel, word">
+      <Item text="headers" url="shared/tabledata.headers" SEODescription="Obtient ou définit les en-têtes dans le tableau" /> 
+      <Item text="Objet Rows" url="shared/tabledata.rows" SEODescription="Obtient ou définit les lignes dans le tableau." />
+    </Item>
+    <Item text="event.completed" url="shared/event.completed" FriendlyUrl="reference/common/officeevent.completed" Scope="outlook" SEODescription="Rappel que le complément invoque pour faire savoir à Outlook que l’opération est effectuée." />
+    <Item text="event.source.id" url="shared/event.source.id" FriendlyUrl="reference/common/officeevent.source.id" Scope="outlook" SEODescription="Obtient l’ID du contrôle qui a déclenché l’appel de cette fonction." />
+    <Item text="Interface utilisateur Office" url="shared/officeui" Scope="outlook, excel, word, powerpoint" SEODescription="Fournit des objets et des méthodes permettant de créer des composants d’interface utilisateur pour les compléments.">
+    	<Item text="Objet Dialogue" url="shared/officeui.dialog" Scope="outlook, excel, word, powerpoint" SEODescription="Objet renvoyé lorsque la méthode displayDialogAsync est appelée." />
+    	<Item text="Méthode DisplayDialog" url="shared/officeui.displaydialogasync" Scope="outlook, excel, word, powerpoint" SEODescription="Affiche une boîte de dialogue web à l’intérieur des hôtes Office." />
+    	<Item text="Méthode MessageParent" url="shared/officeui.messageparent" Scope="outlook, excel, word, powerpoint" SEODescription="Remet un message de la part de la boîte de dialogue à sa page parent/d’ouverture." />
+    </Item>
+  </Item>
+  <Item text="Spécifications ouvertes" url="openspec" Scope="Excel, PowerPoint, Word, Outlook, OneNote" SEODescription="Découvrez les efforts de conception de l’API en cours et fournissez des commentaires" />
+  
+</Menu>
