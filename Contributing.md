@@ -1,4 +1,4 @@
-# Contribuer à cette documentation
+﻿# Contribuer à cette documentation
 
 Nous vous remercions de l’intérêt que vous portez à notre documentation.
 
@@ -25,7 +25,7 @@ Pour contribuer à la version anglaise de cette documentation, consultez la page
 
 ## Contribuer à l’aide de Git
 
-Pour apporter des modifications de fond, consultez la page [Contribuer à l’aide de Git] (https://github.com/OfficeDev/office-js-docs/blob/master/Contributing.md#contribute-using-git).
+Pour faire part d’une modification, consultez la page [Contribuer à l’aide de Git] (https://github.com/OfficeDev/office-js-docs/blob/master/Contributing.md#contribute-using-git).
 
  
 ## FAQ
